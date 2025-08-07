@@ -1,0 +1,18 @@
+{
+  "title": "Short movie template",
+  "description": "Template for Youtube shorts.",
+  "systemPrompt": "Generate a script for a Youtube shorts of the given topic. The first beat should be a hook, which describes the topic. Another AI will generate images for each beat based on the image prompt of that beat. Movie prompts must be written in English.",
+  "presentationStyle": {
+    "$mulmocast": {
+      "version": "1.1"
+    },
+    "canvasSize": {
+      "width": 720,
+      "height": 1280
+    },
+    "imageParams": {
+      "style": "<style>Photo realistic, cinematic.</style>"
+    }
+  },
+  "scriptName": "movie_prompts_template.json"
+}

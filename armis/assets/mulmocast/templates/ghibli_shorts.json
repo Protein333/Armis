@@ -1,0 +1,33 @@
+{
+  "title": "Ghibli style for YouTube Shorts",
+  "description": "Template for Ghibli-style comic presentation.",
+  "systemPrompt": "Generate a Japanese script for a Youtube shorts of the given topic. Another AI will generate comic strips for each beat based on the text description of that beat. Mention the reference in one of beats, if it exists. Use the JSON below as a template.",
+  "presentationStyle": {
+    "$mulmocast": {
+      "version": "1.1",
+      "credit": "closing"
+    },
+    "canvasSize": {
+      "width": 1024,
+      "height": 1536
+    },
+    "speechParams": {
+      "speakers": {
+        "Presenter": { "provider": "nijivoice", "voiceId": "3708ad43-cace-486c-a4ca-8fe41186e20c", "speechOptions": { "speed": 1.5 } }
+      }
+    },
+    "imageParams": {
+      "style": "<style>Ghibli style</style>",
+      "images": {
+        "presenter": {
+          "type": "image",
+          "source": {
+            "kind": "url",
+            "url": "https://raw.githubusercontent.com/receptron/mulmocast-media/refs/heads/main/characters/ghibli_presenter.jpg"
+          }
+        }
+      }
+    }
+  },
+  "scriptName": "image_prompts_template.json"
+}

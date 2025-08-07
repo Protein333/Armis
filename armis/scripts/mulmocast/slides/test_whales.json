@@ -1,0 +1,234 @@
+{
+  "$mulmocast": {
+    "version": "1.0",
+    "credit": "closing"
+  },
+  "title": "Whale Species of the World",
+  "speechParams": {
+    "speakers": {
+      "Presenter": {
+        "voiceId": "shimmer",
+        "displayName": {
+          "en": "Presenter"
+        }
+      }
+    }
+  },
+  "beats": [
+    {
+      "speaker": "Presenter",
+      "text": "Whales are magnificent marine mammals that have captivated human imagination for centuries. Let's explore the diverse species of whales, their evolution, behaviors, and the challenges they face in today's oceans.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Whale Species of the World",
+          "bullets": [
+            "Whale Evolution",
+            "Baleen Whales",
+            "Toothed Whales",
+            "Notable Whale Species",
+            "Whale Behaviors",
+            "Migration Patterns",
+            "Conservation Challenges"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Whales evolved from land mammals that returned to the sea approximately 50 million years ago. Their ancestors were small, four-legged creatures that gradually adapted to aquatic life, developing the streamlined bodies and specialized features we see today.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Whale Evolution",
+          "bullets": [
+            "~50 million years ago - terrestrial ancestors return to the sea",
+            "Descended from artiodactyls (even-toed ungulates)",
+            "Pakicetus and Ambulocetus - early whale ancestors with legs",
+            "Gradual adaptations: streamlined bodies, blowhole migration, tail flukes",
+            "Diversification into baleen and toothed whales ~35 million years ago"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "The order Cetacea is divided into two main suborders: Mysticeti, the baleen whales, and Odontoceti, the toothed whales. Let's first explore the baleen whales, known for their unique filter-feeding system.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Baleen Whales (Mysticeti)",
+          "bullets": [
+            "Filter-feeders using baleen plates instead of teeth",
+            "Generally larger than toothed whales",
+            "Four families: Balaenidae (right whales), Balaenopteridae (rorquals), Eschrichtiidae (gray whale), Cetotheriidae (pygmy right whale)",
+            "Feed primarily on krill and small fish",
+            "Includes the largest animals ever to have lived on Earth"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "The other major group of whales, the Odontoceti or toothed whales, includes a diverse array of species that use teeth to capture prey. They're known for their advanced echolocation abilities, which help them navigate and hunt.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Toothed Whales (Odontoceti)",
+          "bullets": [
+            "Have teeth for catching and consuming prey",
+            "Use sophisticated echolocation for navigation and hunting",
+            "Include sperm whales, beaked whales, narwhals, beluga whales",
+            "Also encompass dolphins and porpoises",
+            "Generally more social, forming complex pods",
+            "Highly developed brains and communication systems"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "The blue whale holds the distinction of being the largest animal to have ever existed on Earth. Let's look at some of the most notable whale species and their unique characteristics.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Notable Whale Species",
+          "bullets": [
+            "Blue whale - largest animal ever, up to 100 feet long and 200 tons",
+            "Sperm whale - largest toothed predator, exceptional deep-diving ability",
+            "Humpback whale - known for complex songs and acrobatic breaches",
+            "Bowhead whale - Arctic specialist with 200+ year lifespan",
+            "Narwhal - distinctive spiral tusk (modified tooth)",
+            "North Atlantic right whale - critically endangered, fewer than 350 remain"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Whales display a fascinating range of behaviors, from the haunting songs of humpbacks to the cooperative hunting techniques of orcas. These behaviors showcase their intelligence and social complexity.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Whale Behaviors",
+          "bullets": [
+            "Communication - songs, calls, and non-vocal communication",
+            "Breaching - leaping partially or completely out of water",
+            "Spy-hopping - rising vertically to observe surroundings",
+            "Lobtailing - slapping tail on water surface",
+            "Bubble-net feeding - cooperative hunting technique",
+            "Cultural transmission of behaviors within populations"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Many whale species undertake some of the longest migrations of any mammals. These journeys between feeding and breeding grounds can span thousands of miles and are crucial to their life cycles.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Migration Patterns",
+          "bullets": [
+            "Gray whales - 10,000+ mile round trip (Alaska to Mexico)",
+            "Humpback whales - travel between polar feeding and tropical breeding grounds",
+            "Blue whales - follow seasonal krill abundances",
+            "Navigation using Earth's magnetic field, landmarks, and memory",
+            "Calving typically occurs in warmer waters",
+            "Cultural transmission of migration routes"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Despite their size and longevity, many whale species face significant threats from human activities. Conservation efforts are critical to ensuring their survival in changing oceans.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Conservation Challenges",
+          "bullets": [
+            "Historic whaling decimated many populations",
+            "Current threats: ship strikes, fishing gear entanglement, noise pollution",
+            "Climate change affecting prey availability and habitats",
+            "Ocean acidification impacting food webs",
+            "Plastic pollution and contaminants",
+            "Conservation success stories: humpback and gray whale recoveries"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "The vocalizations of whales range from the complex songs of humpbacks to the clicking communication of sperm whales. These sounds serve various purposes and showcase the sophisticated communication systems whales have developed.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Whale Acoustics",
+          "bullets": [
+            "Humpback songs - complex patterns that evolve over time",
+            "Blue whale calls - among the loudest animal sounds, travel hundreds of miles",
+            "Sperm whale codas - patterns of clicks used for social communication",
+            "Beluga whales - nicknamed 'sea canaries' for varied vocalizations",
+            "Impact of ocean noise pollution on whale communication",
+            "Cultural dialects among different whale populations"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Whales play crucial roles in marine ecosystems, from regulating food chains to contributing to nutrient cycling. Their influence extends from the depths of the ocean to the atmosphere above.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Ecological Importance",
+          "bullets": [
+            "Whale pump - cycling nutrients from deep to surface waters",
+            "Carbon sequestration - 'whale falls' store carbon in deep sea",
+            "Maintaining krill and fish population balances",
+            "Providing habitat for other species (whale fall ecosystems)",
+            "Contribution to phytoplankton productivity",
+            "Ecosystem engineers that shape marine environments"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "The relationship between humans and whales has evolved dramatically over time, from commercial exploitation to conservation and appreciation. Today, whale watching and research continue to deepen our understanding of these magnificent creatures.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Humans and Whales",
+          "bullets": [
+            "Indigenous relationships and traditional knowledge",
+            "History of commercial whaling and its impact",
+            "International Whaling Commission and protection efforts",
+            "Whale watching as sustainable economic alternative",
+            "Scientific research and conservation technologies",
+            "Cultural significance in art, literature, and marine conservation"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Our journey through the world of whales reveals a fascinating group of mammals that have successfully adapted to life in the oceans. Their continued survival depends on our understanding and protection of their marine habitats.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Conclusion",
+          "bullets": [
+            "Whales represent remarkable evolutionary adaptations to marine life",
+            "Diverse species with specialized feeding strategies and behaviors",
+            "Intelligent, social creatures with complex communication",
+            "Vital components of healthy ocean ecosystems",
+            "Face numerous anthropogenic threats requiring conservation action",
+            "Much remains to be discovered about these ocean giants"
+          ]
+        }
+      }
+    }
+  ]
+}

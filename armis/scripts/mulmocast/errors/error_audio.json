@@ -1,0 +1,29 @@
+{
+  "$mulmocast": {
+    "version": "1.0",
+    "credit": "closing"
+  },
+  "title": "THE ROAD TO SUPERINTELLIGENCE: EXPLORING AI-2027",
+  "description": "This episode examines the AI-2027 forecast, a detailed scenario predicting the development of artificial superintelligence by 2027-2028. We explore the three key stages of development, geopolitical implications, and how AI research automation could create an intelligence explosion with profound consequences for humanity's future.",
+  "speechParams": {
+    "speakers": {
+      "Host": {
+        "voiceId": "invalid",
+        "displayName": {
+          "en": "Host"
+        }
+      }
+    }
+  },
+  "lang": "en",
+  "beats": [
+    {
+      "speaker": "Host",
+      "text": "Welcome to Mulmocast Tech Insights."
+    },
+    {
+      "speaker": "Host",
+      "text": "AI-2028 is a project from the AI Futures Project."
+    }
+  ]
+}

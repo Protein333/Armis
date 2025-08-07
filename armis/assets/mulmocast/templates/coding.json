@@ -1,0 +1,6 @@
+{
+  "title": "Coding presentation",
+  "description": "Template for software and coding presentation.",
+  "systemPrompt": "Generate a script for a technical presentation of the given topic. Use markdown with a code block to show some code on a slide. Avoid long coding examples, which may not fit in a single slide. Mention the reference in one of beats, if it exists. Use the JSON below as a template.",
+  "scriptName": "coding.json"
+}

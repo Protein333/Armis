@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Chart.js Bar Chart</title>
+    <style>
+        ${style}
+        .chart-container {
+            width: ${chart_width}px;
+            margin: 0 auto;
+        }
+    </style>
+    <!-- Include Chart.js from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>${title}</h1>
+    <div class="chart-container">
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <!-- Plain JavaScript instead of TypeScript -->
+    <script>
+        // Wait for DOM to be fully loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get the canvas element
+            const ctx = document.getElementById('myChart');
+            
+            // Create the data object (no TypeScript interfaces)
+            const chartData = ${chart_data};
+
+            // Initialize the chart
+            new Chart(ctx, chartData);
+        });
+    </script>
+</body>
+</html>

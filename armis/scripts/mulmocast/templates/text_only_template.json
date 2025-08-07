@@ -1,0 +1,35 @@
+{
+  "$mulmocast": {
+    "version": "1.1",
+    "credit": "closing"
+  },
+  "title": "[TITLE: Brief, engaging title for the topic]",
+  "lang": "en",
+  "references": [
+    {
+      "url": "[SOURCE_URL: URL of the source material]",
+      "title": "[SOURCE_TITLE: Title of the referenced article, or paper]",
+      "type": "[SOURCE_TYPE: article, paper]"
+    }
+  ],
+  "beats": [
+    {
+      "text": "[OPENING_BEAT: Introduce the topic with a hook. Reference the source material and set up why this topic matters. Usually 2-3 sentences that grab attention and provide context.]"
+    },
+    {
+      "text": "[MAIN_CONCEPT: Define or explain the core concept/idea. This should be the central focus of your narrative. Keep it clear and accessible.]"
+    },
+    {
+      "text": "[SUPPORTING_DETAIL_1: Additional context, examples, or elaboration that helps illustrate the main concept. This could include how it works, why it's important, or real-world applications.]"
+    },
+    {
+      "text": "[SUPPORTING_DETAIL_2: Continue with more examples, deeper explanation, or different aspects of the topic if needed.]"
+    },
+    {
+      "text": "[ADDITIONAL_BEATS: Add more beats as necessary to fully explore the topic. Complex topics may require 6-10+ beats to cover adequately. Each beat should advance the narrative or provide valuable information.]"
+    },
+    {
+      "text": "[CONCLUSION/IMPACT: Wrap up with the significance, implications, or key takeaway. Help the audience understand why this matters to them.]"
+    }
+  ]
+}

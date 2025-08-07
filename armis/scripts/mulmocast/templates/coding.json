@@ -1,0 +1,130 @@
+{
+  "$mulmocast": {
+    "version": "1.1",
+    "credit": "closing"
+  },
+  "title": "Sample Title",
+  "lang": "en",
+  "beats": [
+    {
+      "text": "This is a slide, which just displays the title of this presentation.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "This is the title of the presentation"
+        }
+      }
+    },
+    {
+      "text": "This is ta slide, which just displays the title and the presenter's name of this presentation.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "This is the title of the presentation",
+          "subtitle": "Tom Johnson"
+        }
+      }
+    },
+    {
+      "text": "Here is the sample code",
+      "image": {
+        "type": "markdown",
+        "markdown": "# Markdown Table Example\n```TypeScript\nconst main = () => {\n  console.log('Hello World')\n}\n```"
+      }
+    },
+    {
+      "text": "Here is two sets of code, side by side",
+      "image": {
+        "type": "markdown",
+        "markdown": "# Hello World in two languages\n<div style=\"display: flex; gap: 16px;\">\n  <pre>// JavaScript example\nfunction greet(name) {\n  console.log(`Hello, ${name}!`);\n}\ngreet(\"World\");\n</pre>\n\n  <pre># Python example\ndef greet(name):\n    print(f\"Hello, {name}!\")\n\ngreet(\"World\")\n</pre>\n</div>"
+      }
+    },
+    {
+      "text": "The evolution of humans is a complex journey that spans millions of years, shaped by biology, environment, and culture. Here's a high-level summary of the key stages in human evolution",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Human Evolution",
+          "bullets": [
+            "Early Primates",
+            "Hominids and Hominins",
+            "Australopithecus",
+            "Genus Homo Emerges",
+            "Homo erectus and Migration",
+            "Neanderthals and Other Archaic Humans",
+            "Homo sapiens"
+          ]
+        }
+      }
+    },
+    {
+      "text": "This table shows the items in the store.",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "# Markdown Table Example",
+          "| Item              | In Stock | Price |",
+          "| :---------------- | :------: | ----: |",
+          "| Python Hat        |   True   | 23.99 |",
+          "| SQL Hat           |   True   | 23.99 |",
+          "| Codecademy Tee    |  False   | 19.99 |",
+          "| Codecademy Hoodie |  False   | 42.99 |"
+        ]
+      }
+    },
+    {
+      "text": "Next, let's look at a diagram of our business process flow. This illustrates the key steps from product development to sales.",
+      "image": {
+        "type": "mermaid",
+        "title": "Business Process Flow",
+        "code": {
+          "kind": "text",
+          "text": "graph LR\n    A[Market Research] --> B[Product Planning]\n    B --> C[Development]\n    C --> D[Testing]\n    D --> E[Manufacturing]\n    E --> F[Marketing]\n    F --> G[Sales]\n    G --> H[Customer Support]\n    H --> A"
+        }
+      }
+    },
+    {
+      "text": "This page shows the sales and profits of this company from January 2024 to June 2024.",
+      "image": {
+        "type": "chart",
+        "title": "Sales and Profits (from Jan to June)",
+        "chartData": {
+          "type": "bar",
+          "data": {
+            "labels": ["January", "February", "March", "April", "May", "June"],
+            "datasets": [
+              {
+                "label": "Revenue ($1000s)",
+                "data": [120, 135, 180, 155, 170, 190],
+                "backgroundColor": "rgba(54, 162, 235, 0.5)",
+                "borderColor": "rgba(54, 162, 235, 1)",
+                "borderWidth": 1
+              },
+              {
+                "label": "Profit ($1000s)",
+                "data": [45, 52, 68, 53, 61, 73],
+                "backgroundColor": "rgba(75, 192, 192, 0.5)",
+                "borderColor": "rgba(75, 192, 192, 1)",
+                "borderWidth": 1
+              }
+            ]
+          },
+          "options": {
+            "responsive": true,
+            "animation": false
+          }
+        }
+      }
+    },
+    {
+      "text": "This is the image of a high school girl in Harajuku.",
+      "image": {
+        "type": "image",
+        "source": {
+          "kind": "url",
+          "url": "https://satoshi.blogs.com/mag2/May2025/ghibli0.png"
+        }
+      }
+    }
+  ]
+}

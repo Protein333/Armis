@@ -1,0 +1,40 @@
+{
+  "$mulmocast": {
+    "version": "1.1"
+  },
+  "lang": "en",
+  "movieParams": {
+    "provider": "google"
+  },
+  "canvasSize": {
+    "width": 720,
+    "height": 1280
+  },
+  "imageParams": {
+    "provider": "openai",
+    "model": "dall-e-3",
+    "style": "Photo realistic, cinematic style.",
+    "images": {
+      "optimus": {
+        "type": "image",
+        "source": {
+          "kind": "url",
+          "url": "https://raw.githubusercontent.com/receptron/mulmocast-media/refs/heads/main/characters/optimus.png"
+        }
+      }
+    }
+  },
+  "beats": [
+    {
+      "text": "Image with both image and movie prompt",
+      "imagePrompt": "巨大なロケット「Starship」が発射台から打ち上がろうとしている様子。空には星と火星が浮かんでいる。",
+      "moviePrompt": "Startship lifts off.",
+      "duration": 5
+    },
+    {
+      "text": "Image with only movie prompt",
+      "moviePrompt": "Startship lifts off.",
+      "duration": 5
+    }
+  ]
+}

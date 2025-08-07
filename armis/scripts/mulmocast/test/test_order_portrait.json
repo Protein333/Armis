@@ -1,0 +1,73 @@
+{
+  "$mulmocast": { "version": "1.1" },
+  "lang": "en",
+  "canvasSize": {
+    "width": 720,
+    "height": 1280
+  },
+  "beats": [
+    {
+      "text": "The number 1 stands alone—independent, bold, and often lonely. In stories, the lone hero begins their journey without companions, carving their path through courage. Think of Neo in The Matrix, 'The One', chosen to awaken humanity. Or the number 1 in binary—on or off, light or dark. It reminds us that every great movement starts with a single step, a single decision. Just one person can spark a revolution or change history. As Lao Tzu said, 'The journey of a thousand miles begins with one step.'",
+      "image": {
+        "type": "markdown",
+        "markdown": ["# 1", "# one"]
+      }
+    },
+    {
+      "text": "Two is the number of connection. In myth, it's often the number of lovers, twins, or duels. Adam and Eve, Sun and Moon, Sherlock and Watson. It's the smallest number that introduces the concept of 'the other'. In quantum physics, entangled particles influence each other instantly, no matter the distance. In life, two minds can spark ideas one alone could never imagine. 'It takes two to tango' is more than a dance—it's a truth about collaboration and tension, the dance of opposites that moves the world forward.",
+      "image": {
+        "type": "markdown",
+        "markdown": ["# 2", "# two"]
+      }
+    },
+    {
+      "text": "Three is the storyteller’s favorite. Three acts, three trials, three wishes—our minds love the rhythm. In fairy tales, the youngest of three siblings often prevails, defying expectations. Christianity has the Holy Trinity. In time, we speak of past, present, and future. Philosophers speak of thesis, antithesis, and synthesis. There’s something satisfying about the triangle: it’s stable, dynamic, and complete. As the saying goes, 'Third time’s the charm.' It’s as if the universe speaks in triplets, offering clarity where one or two might falter.",
+      "image": {
+        "type": "markdown",
+        "markdown": ["# 3", "# three"]
+      }
+    },
+    {
+      "text": "Four is a number of structure. We see it in the four cardinal directions—north, south, east, and west—framing our understanding of space. Ancient elements often came in fours: earth, water, air, and fire. In East Asia, four can be ominous, sounding like 'death' in some languages. Yet in many traditions, four symbolizes balance. A chair stands on four legs. The year cycles through four seasons. Jung described four functions of consciousness—thinking, feeling, sensing, and intuiting. It’s a square, solid and grounding.",
+      "image": {
+        "type": "markdown",
+        "markdown": ["# 4", "# four"]
+      }
+    },
+    {
+      "text": "Five is how we touch the world. With five fingers on each hand and five toes on each foot, we explore, build, and move. We experience life through five senses: sight, hearing, smell, taste, and touch. In Japanese philosophy, 'Godai' outlines five elements: earth, water, fire, wind, and void. In the West, the pentagram has been used as a symbol of balance and protection. It’s also a human shape—arms and legs spread wide. The number five reflects our human experience: curious, sensory, and striving for meaning.",
+      "image": {
+        "type": "markdown",
+        "markdown": ["# 5", "# five"]
+      }
+    },
+    {
+      "text": "Six is often seen as a number of harmony and order. In geometry, the hexagon is one of the most efficient and natural forms—think honeycombs or snowflakes. In Christianity, God created the world in six days. In music, a sixth interval is sweet and stable. In chemistry, carbon has six protons—this one element is the foundation of all life. In dice, six is the highest you can roll, often bringing fortune. And in ancient numerology, six represented responsibility and care—it's the number of the caregiver and the homebuilder.",
+      "image": {
+        "type": "markdown",
+        "markdown": ["# 6", "# six"]
+      }
+    },
+    {
+      "text": "Seven is a number shrouded in mystery. There are seven colors in the rainbow, seven days in a week, seven continents, and seven wonders of the ancient world. In literature, it's often a sacred or magical number—Harry Potter had seven horcruxes, Snow White had seven dwarves. In many religions, seven is divine: the seventh heaven, the seven chakras, the seven deadly sins. Mathematically, it’s a prime—indivisible, unique. It’s said that humans can best remember seven things at once. Something about it just feels… complete.",
+      "image": {
+        "type": "markdown",
+        "markdown": ["# 7", "# seven"]
+      }
+    },
+    {
+      "text": "Eight is a number of abundance and eternity. Turned on its side, it becomes the infinity symbol. In Chinese culture, 8 is extremely lucky, sounding like wealth or fortune. The Olympics in Beijing began on 8/8/08 at 8:08:08 PM for this reason. In Buddhism, the Eightfold Path outlines the steps toward enlightenment. Spiders have eight legs—symbols of patience and precision. Even in music, an octave spans eight notes. It’s the number of cycles, rebirths, and limitless potential—forever looping like a serpent eating its tail.",
+      "image": {
+        "type": "markdown",
+        "markdown": ["# 8", "# eight"]
+      }
+    },
+    {
+      "text": "Nine signals the end of a cycle. In pregnancy, it marks the final month before birth. In Norse mythology, there are nine worlds. In Dante’s Inferno, nine circles define Hell. Cats are said to have nine lives—resilient and mysterious. In Japanese culture, the number can be unlucky, associated with suffering. But it’s also powerful: the last single-digit number, composed of three threes. In mathematics, multiplying nine always returns to itself—18 becomes 1+8=9. It's the threshold, the peak before transformation begins again.",
+      "image": {
+        "type": "markdown",
+        "markdown": ["# 9", "# nine"]
+      }
+    }
+  ]
+}

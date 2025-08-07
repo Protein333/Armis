@@ -1,0 +1,100 @@
+{
+  "$mulmocast": { "version": "1.1" },
+  "movieParams": {
+    "provider": "replicate",
+    "model": "google/veo-3-fast"
+  },
+  "audioParams": {
+    "bgmVolume": 0,
+    "suppressSpeech": true
+  },
+  "references": [
+    {
+      "title": "Mysterious Fruit",
+      "url": "https://x.com/seiiiiiiiiiiru/status/1934372216915067309"
+    },
+    {
+      "title": "Arctic Fox",
+      "url": "https://x.com/icreatelife/status/1935151264284782809"
+    },
+    {
+      "title": "Standup Comedy",
+      "url": "https://x.com/sainathgupta/status/1939614435527753920"
+    },
+    {
+      "title": "美女×ASMRの切り口でVeo3で動画生成してみた。",
+      "url": "https://x.com/milbon_/status/1934189040540221811"
+    },
+    {
+      "title": "It's time for a Cinderella Shie review unboxing video",
+      "url": "https://x.com/guicastellanos1/status/1940310837346148439"
+    },
+    {
+      "title": "male barista’s perspective",
+      "url": "https://x.com/Ror_Fly/status/1938649774367842389"
+    },
+    {
+      "title": "Single Titan",
+      "url": "https://x.com/CaptainHaHaa/status/1937570159901954336"
+    },
+    {
+      "title": "I made a stop-motion animation for Chanel No. 5 using Veo3.",
+      "url": "https://x.com/crystalsssup/status/1942162692938354804"
+    }
+  ],
+  "captionParams": {
+    "lang": "en",
+    "styles": ["font-size: 16px", "width: 90%", "padding-left: 5%", "padding-right: 5%"]
+  },
+  "lang": "en",
+  "beats": [
+    {
+      "id": "mysterious_fruit",
+      "duration": 8,
+      "text": "A mysterious fruit with a hard surface and a slime-like soft interior with liquid spilling out from the center. This is a first-person ASMR video that lets you enjoy the sound of cutting a mysterious fruit with a knife. When you try to cut it with a knife, the surface is hard and you have to use force. Immediately after you hear the surface cracking, you hear the sticky sound of slime inside and the sound of the liquid spilling out from the center. A large amount of flesh and seeds spill out.",
+      "moviePrompt": "A mysterious fruit with a hard surface and a slime-like soft interior with liquid spilling out from the center. This is a first-person ASMR video that lets you enjoy the sound of cutting a mysterious fruit with a knife. When you try to cut it with a knife, the surface is hard and you have to use force. Immediately after you hear the surface cracking, you hear the sticky sound of slime inside and the sound of the liquid spilling out from the center. A large amount of flesh and seeds spill out."
+    },
+    {
+      "id": "arctic_fox",
+      "duration": 8,
+      "text": "A sweeping drone shot dives low over a jagged Arctic ridge, snow whipping past the lens in fierce gusts. The camera banks hard, tracing the footsteps of a lone Arctic fox sprinting across a frozen expanse. The fox leaps over a crevasse, the camera tilts steeply to follow, revealing a towering glacier bathed in cold blue light. The lens fogs slightly from the chill before wiping clear to catch the fox vanishing into an ice tunnel",
+      "moviePrompt": "A sweeping drone shot dives low over a jagged Arctic ridge, snow whipping past the lens in fierce gusts. The camera banks hard, tracing the footsteps of a lone Arctic fox sprinting across a frozen expanse. The fox leaps over a crevasse, the camera tilts steeply to follow, revealing a towering glacier bathed in cold blue light. The lens fogs slightly from the chill before wiping clear to catch the fox vanishing into an ice tunnel"
+    },
+    {
+      "id": "standup_comedy",
+      "duration": 8,
+      "text": " A man doing stand up comedy in a small venue tells a joke (include the joke in the dialogue)",
+      "moviePrompt": " A man doing stand up comedy in a small venue tells a joke (include the joke in the dialogue)"
+    },
+    {
+      "id": "japanese_girl_with_knife",
+      "duration": 8,
+      "text": "POV selfie shot from an extended arm—cute Japanese girl softly smiles at the camera in a cozy tatami room, whispering, “Let’s begin some satisfying sounds, okay?” as she slices into kinetic sand with a sleek knife. The crisp slicing sound fills the quiet room, gentle daylight streaming in. Calming, intimate, zen.",
+      "moviePrompt": "POV selfie shot from an extended arm—cute Japanese girl softly smiles at the camera in a cozy tatami room, whispering, “Let’s begin some satisfying sounds, okay?” as she slices into kinetic sand with a sleek knife. The crisp slicing sound fills the quiet room, gentle daylight streaming in. Calming, intimate, zen."
+    },
+    {
+      "id": "cinderella_vlog",
+      "duration": 8,
+      "text": "A hyperrealistic 'shoe review' vlog. A photo-realistic Cinderella, wearing her beautiful blue ball gown, is sitting on the floor of her bedroom. She holds a single, sparkling glass slipper up to the camera. She says: 'Okay, quick unboxing. Aesthetically, these custom glass slippers are a 10 out of 10. No notes.' She tries to put it on. 'But practically? Zero stars. There's no arch support and they're super slippery. Honestly, I'll be lucky if I don't lose one of these tonight. Low-key wish my godmother had just gotten me some sneakers.'",
+      "moviePrompt": "A hyperrealistic 'shoe review' vlog. A photo-realistic Cinderella, wearing her beautiful blue ball gown, is sitting on the floor of her bedroom. She holds a single, sparkling glass slipper up to the camera. She says: 'Okay, quick unboxing. Aesthetically, these custom glass slippers are a 10 out of 10. No notes.' She tries to put it on. 'But practically? Zero stars. There's no arch support and they're super slippery. Honestly, I'll be lucky if I don't lose one of these tonight. Low-key wish my godmother had just gotten me some sneakers.'"
+    },
+    {
+      "id": "barista_perspective",
+      "duration": 8,
+      "text": "From the male barista’s perspective, a hand-held static shot captures a woman walking towards the counter and ordering simultaneously, ambient lighting that halos her form with soft glow. She says: 'Skinny vanilla latte, no foam, extra hot, 8 pumps sugar-free vanilla, in a holiday cup — even though it’s July. Now!'  Wearing: 50 year old woman dressed in Blonde bob, leopard print blouse, Louis Vuitton knockoff. Her voice: Loud, demanding, ready to Yelp. but she speaks really fast with a staten island accent. Environment: The Starbucks environment behind her remains modern and corporate with a view of the front door with black window panes.",
+      "moviePrompt": "From the male barista’s perspective, a hand-held static shot captures a woman walking towards the counter and ordering simultaneously, ambient lighting that halos her form with soft glow. She says: 'Skinny vanilla latte, no foam, extra hot, 8 pumps sugar-free vanilla, in a holiday cup — even though it’s July. Now!'  Wearing: 50 year old woman dressed in Blonde bob, leopard print blouse, Louis Vuitton knockoff. Her voice: Loud, demanding, ready to Yelp. but she speaks really fast with a staten island accent. Environment: The Starbucks environment behind her remains modern and corporate with a view of the front door with black window panes."
+    },
+    {
+      "id": "single_titan",
+      "duration": 8,
+      "text": "A low-angle, wide-angle cinematic shot reveals a colossal Titan with cracked obsidian-like skin and molten veins glowing through fissures as he smashes through a glass-clad high-rise. Slow-motion debris flutters downward while a brunette woman in a red trench coat and a green-hoodie teen dash away in terror. Backlit lighting silhouettes the Titan’s massive form; dynamic motion shakes the handheld camera to mimic seismic tremors; swirling dust and sparks hang suspended in the air",
+      "moviePrompt": "A low-angle, wide-angle cinematic shot reveals a colossal Titan with cracked obsidian-like skin and molten veins glowing through fissures as he smashes through a glass-clad high-rise. Slow-motion debris flutters downward while a brunette woman in a red trench coat and a green-hoodie teen dash away in terror. Backlit lighting silhouettes the Titan’s massive form; dynamic motion shakes the handheld camera to mimic seismic tremors; swirling dust and sparks hang suspended in the air"
+    },
+    {
+      "id": "chanel",
+      "duration": 8,
+      "text": "A claymation Paris street at midnight — the Eiffel Tower sparkles in the background, and a tiny clay bottle of Chanel No.5 tiptoes across cobblestones. Make sure everything used stop motion animation.",
+      "moviePrompt": "A claymation Paris street at midnight — the Eiffel Tower sparkles in the background, and a tiny clay bottle of Chanel No.5 tiptoes across cobblestones. Make sure everything used stop motion animation."
+    }
+  ]
+}

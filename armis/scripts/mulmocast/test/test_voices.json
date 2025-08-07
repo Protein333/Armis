@@ -1,0 +1,55 @@
+{
+  "$mulmocast": {
+    "version": "1.1"
+  },
+  "lang": "en",
+  "title": "Voice Test",
+  "speechParams": {
+    "speakers": {
+      "David": {
+        "provider": "elevenlabs",
+        "voiceId": "XjLkpWUlnhS8i7gGz3lZ"
+      },
+      "Felicity": {
+        "provider": "elevenlabs",
+        "voiceId": "aTbnroHRGIomiKpqAQR8"
+      },
+      "Ishibashi": {
+        "provider": "elevenlabs",
+        "voiceId": "Mv8AjrYZCBkdsmDHNwcB"
+      }
+    }
+  },
+  "beats": [
+    {
+      "speaker": "David",
+      "text": "I am Davie Castleman, with a clear and crisp middle age professional American voice, powered by ElevenLabs.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "I am Davie Castleman, a clear and crisp middle aged man, powered by ElevenLabs."
+        }
+      }
+    },
+    {
+      "speaker": "Felicity",
+      "text": "I'm a young British English woman, powered by ElevenLabs.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "I'm a young British English woman."
+        }
+      }
+    },
+    {
+      "speaker": "Ishibashi",
+      "text": "こんにちは、私の名前は石橋です。イレブンラブスの声です。",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "こんにちは、私の名前は石橋です。"
+        }
+      }
+    }
+  ]
+}

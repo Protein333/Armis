@@ -1,0 +1,50 @@
+{
+  "$mulmocast": {
+    "version": "1.1",
+    "credit": "closing"
+  },
+  "title": "[TITLE: Brief, engaging title for the topic]",
+  "lang": "en",
+  "references": [
+    {
+      "url": "[SOURCE_URL: URL of the source material]",
+      "title": "[SOURCE_TITLE: Title of the referenced article, or paper]",
+      "type": "[SOURCE_TYPE: article, paper]"
+    }
+  ],
+  "movieParams": {
+    "provider": "google"
+  },
+  "beats": [
+    {
+      "duration": 5.0,
+      "imagePrompt": "[IMAGE_PROMPT: A prompt for the image to be generated for this beat.]",
+      "moviePrompt": "[MOVIE_PROMPT: A movie prompt for that image.]"
+    },
+    {
+      "duration": 5.0,
+      "imagePrompt": "[IMAGE_PROMPT: A prompt for the image to be generated for this beat.]",
+      "moviePrompt": "[MOVIE_PROMPT: A movie prompt for that image.]"
+    },
+    {
+      "duration": 5.0,
+      "imagePrompt": "[IMAGE_PROMPT: A prompt for the image to be generated for this beat.]",
+      "moviePrompt": "[MOVIE_PROMPT: A movie prompt for that image.]"
+    },
+    {
+      "duration": 5.0,
+      "imagePrompt": "[IMAGE_PROMPT: A prompt for the image to be generated for this beat.]",
+      "moviePrompt": "[MOVIE_PROMPT: A movie prompt for that image.]"
+    },
+    {
+      "duration": 5.0,
+      "imagePrompt": "[IMAGE_PROMPT: A prompt for the image to be generated for this beat.]",
+      "moviePrompt": "[MOVIE_PROMPT: A movie prompt for that image.]"
+    },
+    {
+      "duration": 5.0,
+      "imagePrompt": "[IMAGE_PROMPT: A prompt for the image to be generated for this beat.]",
+      "moviePrompt": "[MOVIE_PROMPT: A movie prompt for that image.]"
+    }
+  ]
+}

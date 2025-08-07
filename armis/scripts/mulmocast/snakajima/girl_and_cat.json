@@ -1,0 +1,78 @@
+{
+  "$mulmocast": {
+    "version": "1.1",
+    "credit": "closing"
+  },
+  "lang": "en",
+  "title": "The Girl Who Listened",
+  "movieParams": {
+    "provider": "replicate"
+  },
+  "imageParams": {
+    "style": "<style>Ghibli style</style>",
+    "images": {
+      "mio": {
+        "type": "imagePrompt",
+        "prompt": "A quiet, thoughtful girl around 10 years old with long black hair and deep eyes, wearing a wool sweater and skirt, sitting alone by the sea. She looks curious but solemn. Overcast sky and wind in her hair."
+      },
+      "cat": {
+        "type": "imagePrompt",
+        "prompt": "A small black cat with golden eyes, slightly wet and scruffy, intelligent expression, sitting on a windowsill with its tail curled. Mysterious and magical vibe."
+      }
+    }
+  },
+  "beats": [
+    {
+      "text": "In a quiet village between the forest and sea, lived a girl named Mio. She barely spoke, but she listened—to wind, to water, to the silence between stories.",
+      "imagePrompt": "Mio sitting under a tree by the coast, eyes closed, listening to the wind. The ocean waves behind her, forest on the side.",
+      "moviePrompt": " ",
+      "imageNames": ["mio"]
+    },
+    {
+      "text": "One cloudy day on the beach, she found a shivering black cat under a driftwood log. It looked up at her and mewed softly.",
+      "imagePrompt": "Mio kneeling in the sand beside a tiny, soaked black cat under a large driftwood log. The sky is grey, waves in the background.",
+      "moviePrompt": " ",
+      "imageNames": ["mio", "cat"]
+    },
+    {
+      "text": "From that day on, the cat followed her everywhere. It never made a sound again—but it watched, always watching.",
+      "imagePrompt": "The cat walking beside Mio as she walks through the village path at dusk, both in sync, golden light behind them.",
+      "moviePrompt": " ",
+      "imageNames": ["mio", "cat"]
+    },
+    {
+      "text": "People in the village began to whisper: 'That girl talks to cats, but never to us.'",
+      "imagePrompt": "Villagers glancing from their stalls in the market square as Mio walks past silently with the cat, murmurs in the background.",
+      "moviePrompt": " ",
+      "imageNames": ["mio", "cat"]
+    },
+    {
+      "text": "One evening, the cat sat on her windowsill and spoke: 'It’s time.'",
+      "imagePrompt": "The black cat illuminated by soft lamplight on a windowsill, speaking with calm authority. Mio stares back, startled.",
+      "moviePrompt": " ",
+      "imageNames": ["cat", "mio"]
+    },
+    {
+      "text": "It led her into the forest, where words were hidden between roots and carried on birdsong.",
+      "imagePrompt": "Mio and the cat walking into a glowing twilight forest path, with faint symbols in the air and birds fluttering in the trees.",
+      "moviePrompt": " ",
+      "imageNames": ["mio", "cat"]
+    },
+    {
+      "text": "She learned not from books, but from the quiet. And in time, her words began to carry weight, like stones on still water.",
+      "imagePrompt": "Mio speaking gently to a sad child by the river, the cat sitting nearby. The child starts to smile. Gentle, warm atmosphere.",
+      "moviePrompt": " ",
+      "imageNames": ["mio", "cat"]
+    },
+    {
+      "text": "If you visit that village now, they’ll tell you of the girl who speaks like trees and listens like stars. Sit beside her, and you too might learn to hear.",
+      "imagePrompt": "A wide view of the village by the sea at night, stars above. Mio and the cat sit on a cliff overlooking the water, peaceful and timeless.",
+      "moviePrompt": " ",
+      "imageNames": ["mio", "cat"]
+    }
+  ],
+  "canvasSize": {
+    "width": 1536,
+    "height": 1024
+  }
+}

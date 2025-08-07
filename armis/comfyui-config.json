@@ -1,0 +1,23 @@
+{
+  "server": {
+    "port": 8188,
+    "host": "127.0.0.1",
+    "listen": "127.0.0.1"
+  },
+  "models": {
+    "checkpoints_dir": "models/checkpoints",
+    "loras_dir": "models/loras",
+    "controlnet_dir": "models/controlnet",
+    "vae_dir": "models/vae",
+    "upscale_models_dir": "models/upscale_models",
+    "embeddings_dir": "models/embeddings"
+  },
+  "output": {
+    "output_dir": "output",
+    "temp_dir": "temp"
+  },
+  "ui": {
+    "theme": "dark",
+    "language": "ja"
+  }
+} 

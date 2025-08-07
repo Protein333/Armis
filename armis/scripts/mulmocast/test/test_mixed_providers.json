@@ -1,0 +1,92 @@
+{
+  "$mulmocast": {
+    "version": "1.1"
+  },
+  "lang": "en",
+  "title": "Mixed Providers Test",
+  "description": "Testing multiple TTS providers for different speakers",
+  "speechParams": {
+    "speakers": {
+      "Presenter": {
+        "provider": "openai",
+        "voiceId": "shimmer",
+        "displayName": {
+          "en": "Main Presenter"
+        }
+      },
+      "Narrator": {
+        "voiceId": "en-US-Standard-A",
+        "provider": "google",
+        "displayName": {
+          "en": "Google Narrator"
+        }
+      },
+      "Expert": {
+        "voiceId": "21m00Tcm4TlvDq8ikWAM",
+        "provider": "elevenlabs",
+        "displayName": {
+          "en": "Expert Voice"
+        }
+      },
+      "Host": {
+        "voiceId": "3708ad43-cace-486c-a4ca-8fe41186e20c",
+        "provider": "nijivoice",
+        "displayName": {
+          "en": "Japanese Host"
+        }
+      }
+    }
+  },
+  "audioParams": {
+    "padding": 0.5,
+    "introPadding": 1.0,
+    "closingPadding": 1.0,
+    "outroPadding": 1.0
+  },
+  "beats": [
+    {
+      "speaker": "Presenter",
+      "text": "Welcome to our presentation. I'm using OpenAI's default provider.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Mixed Provider Demo",
+          "subtitle": "OpenAI Speaker"
+        }
+      }
+    },
+    {
+      "speaker": "Narrator",
+      "text": "And I'm the narrator, using Google's text-to-speech service.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Mixed Provider Demo",
+          "subtitle": "Google Speaker"
+        }
+      }
+    },
+    {
+      "speaker": "Expert",
+      "text": "Finally, I'm the expert using ElevenLabs for premium voice quality.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Mixed Provider Demo",
+          "subtitle": "ElevenLabs Speaker"
+        }
+      }
+    },
+    {
+      "speaker": "Host",
+      "text": "そして私は、日本語音声合成のためのNijivoiceを使用するホストです。",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Mixed Provider Demo",
+          "subtitle": "Nijivoice Speaker (Japanese)"
+        }
+      }
+    }
+  ]
+}

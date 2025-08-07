@@ -1,0 +1,28 @@
+{
+  "title": "Ghibli comic style",
+  "description": "Template for Ghibli-style comic presentation.",
+  "systemPrompt": "Generate a script for a presentation of the given topic. Another AI will generate comic strips for each beat based on the text description of that beat. Mention the reference in one of beats, if it exists. Use the JSON below as a template.",
+  "presentationStyle": {
+    "$mulmocast": {
+      "version": "1.1",
+      "credit": "closing"
+    },
+    "canvasSize": {
+      "width": 1536,
+      "height": 1024
+    },
+    "imageParams": {
+      "style": "<style>Ghibli style</style>",
+      "images": {
+        "presenter": {
+          "type": "image",
+          "source": {
+            "kind": "url",
+            "url": "https://raw.githubusercontent.com/receptron/mulmocast-media/refs/heads/main/characters/ghibli_presenter.png"
+          }
+        }
+      }
+    }
+  },
+  "scriptName": "image_prompts_template.json"
+}

@@ -1,0 +1,51 @@
+{
+  "$mulmocast": {
+    "version": "1.0",
+    "credit": "closing"
+  },
+  "title": "Human Evolution",
+  "textSlideParams": {
+    "cssStyles": [
+      "body { margin: 40px; margin-top: 60px; color:#333 }",
+      "h1 { font-size: 60px; text-align: center; color:green }",
+      "ul { margin-left: 40px } ",
+      "li { font-size: 48px }"
+    ]
+  },
+  "speechParams": {
+    "speakers": {
+      "Presenter": {
+        "voiceId": "shimmer",
+        "displayName": {
+          "en": "Presenter"
+        }
+      }
+    }
+  },
+  "beats": [
+    {
+      "speaker": "Presenter",
+      "text": "The evolution of humans is a complex journey that spans millions of years, shaped by biology, environment, and culture. Here's a high-level summary of the key stages in human evolution",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Human Evolution",
+          "bullets": [
+            "Early Primates",
+            "Hominids and Hominins",
+            "Australopithecus",
+            "Genus Homo Emerges",
+            "Homo erectus and Migration",
+            "Neanderthals and Other Archaic Humans",
+            "Homo sapiens"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Our story begins with tree-dwelling primates—small mammals with forward-facing eyes and grasping hands. These ancestors lived in forests and evolved traits useful for climbing and visual depth perception.",
+      "imagePrompt": "A detailed scientific illustration of small, early tree-dwelling primate ancestors in a lush prehistoric forest canopy. Show several small mammals with distinctive forward-facing eyes and grasping hands clutching branches. Include anatomical details highlighting their specialized limbs for climbing and depth perception adaptations. The style should be realistic, educational, and suitable for a scientific presentation, with soft natural lighting filtering through the forest canopy. The scene should clearly demonstrate the arboreal lifestyle that shaped primate evolution."
+    }
+  ]
+}

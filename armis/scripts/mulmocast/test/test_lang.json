@@ -1,0 +1,87 @@
+{
+  "$mulmocast": {
+    "version": "1.1"
+  },
+  "lang": "en",
+  "speechParams": {
+    "speakers": {
+      "Presenter": {
+        "provider": "openai",
+        "voiceId": "shimmer",
+        "lang": {
+          "ja": {
+            "provider": "nijivoice",
+            "voiceId": "9d9ed276-49ee-443a-bc19-26e6136d05f0"
+          }
+        }
+      }
+    }
+  },
+  "beats": [
+    {
+      "text": "Hello World",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Hello World"
+        }
+      }
+    },
+    {
+      "text": "Switching Language and Switching Screen should match.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Switching Language"
+        }
+      }
+    },
+    {
+      "text": "May the force be with you.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "May the force be with you"
+        }
+      }
+    },
+    {
+      "text": "Switching Language and Switching Screen should match even with a short duration.",
+      "duration": 1,
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Switching Language (short duration)"
+        }
+      }
+    },
+    {
+      "text": "Switching Language and Switching Screen should match even with a long duration.",
+      "duration": 8,
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Switching Language (long duration)"
+        }
+      }
+    },
+    {
+      "text": "The yield of TSMC's 3nm process exceeds 70%.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Text replacement test for nijivoice"
+        }
+      }
+    },
+    {
+      "text": "Goodbye",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Goodbye"
+        }
+      }
+    }
+  ]
+}

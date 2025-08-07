@@ -1,0 +1,152 @@
+{
+  "$mulmocast": {
+    "version": "1.1"
+  },
+  "lang": "en",
+  "title": "Media Test",
+  "audioParams": {
+    "introPadding": 0,
+    "padding": 1.0,
+    "closingPadding": 5.0,
+    "outroPadding": 0
+  },
+  "beats": [
+    {
+      "speaker": "Presenter",
+      "text": "This is an opening beat.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Opening Beat"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "No Audio with Duration 1.0 seconds (default)"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "This is the third beat.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Third Beat"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "This beat has a custom audio padding of 0.0 seconds.",
+      "audioParams": {
+        "padding": 0.0
+      },
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Custom Audio Padding 0.0 seconds"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "This beat has a custom audio padding of 3.0 seconds.",
+      "audioParams": {
+        "padding": 3.0
+      },
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Custom Audio Padding 3.0 seconds"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "",
+      "duration": 2,
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "No Audio with Duration 2 seconds"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "This is a local movie with audio.",
+      "image": {
+        "type": "movie",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/receptron/mulmocast-media/raw/refs/heads/main/test/pingpong.mov"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "This is a local movie with 20% audio.",
+      "image": {
+        "type": "movie",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/receptron/mulmocast-media/raw/refs/heads/main/test/pingpong.mov"
+        }
+      },
+      "audioParams": {
+        "movieVolume": 0.2
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "This is a local movie with no audio.",
+      "image": {
+        "type": "movie",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/receptron/mulmocast-media/raw/refs/heads/main/test/pingpong.mov"
+        }
+      },
+      "audioParams": {
+        "movieVolume": 0.0
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "This section has longer duration than the audio.",
+      "duration": 10,
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Duration 10 seconds"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "This is the beat before the closing slide.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Before Closing Slide"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "This is the closing slide.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Closing Slide"
+        }
+      }
+    }
+  ]
+}

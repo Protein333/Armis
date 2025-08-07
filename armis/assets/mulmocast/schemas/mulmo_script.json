@@ -1,0 +1,283 @@
+{
+  "type": "object",
+  "properties": {
+    "$mulmocast": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "string",
+          "const": "1.0"
+        },
+        "credit": {
+          "type": "string",
+          "const": "closing"
+        }
+      },
+      "required": ["version"],
+      "additionalProperties": false
+    },
+    "canvasSize": {
+      "type": "object",
+      "properties": {
+        "width": { "type": "number" },
+        "height": { "type": "number" }
+      },
+      "required": ["width", "height"],
+      "additionalProperties": false,
+      "default": { "width": 1280, "height": 720 }
+    },
+    "speechParams": {
+      "type": "object",
+      "properties": {
+        "provider": {
+          "type": "string",
+          "enum": ["openai", "nijivoice", "google", "elevenlabs"],
+          "default": "openai"
+        },
+        "speakers": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "displayName": {
+                "type": "object",
+                "additionalProperties": { "type": "string" }
+              },
+              "voiceId": { "type": "string" },
+              "speechOptions": {
+                "type": "object",
+                "properties": {
+                  "speed": { "type": "number" },
+                  "instruction": { "type": "string" }
+                },
+                "additionalProperties": false
+              },
+              "provider": {
+                "type": "string",
+                "enum": ["openai", "nijivoice", "google", "elevenlabs"]
+              }
+            },
+            "required": ["voiceId"],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": ["speakers"],
+      "additionalProperties": false
+    },
+    "imageParams": {
+      "type": "object",
+      "properties": {
+        "model": { "type": "string" },
+        "style": { "type": "string" },
+        "moderation": { "type": "string" },
+        "provider": {
+          "type": "string",
+          "enum": ["openai", "google"],
+          "default": "openai"
+        }
+      },
+      "additionalProperties": false
+    },
+    "movieParams": {
+      "type": "object",
+      "properties": {
+        "provider": {
+          "type": "string",
+          "enum": ["openai", "google", "replicate"],
+          "default": "google"
+        },
+        "model": { "type": "string" },
+        "transition": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": ["fade", "slideout_left"]
+            },
+            "duration": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 2,
+              "default": 0.3
+            }
+          },
+          "required": ["type"],
+          "additionalProperties": false
+        },
+        "fillOption": {
+          "type": "object",
+          "properties": {
+            "style": {
+              "type": "string",
+              "enum": ["aspectFit", "aspectFill"],
+              "default": "aspectFit"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "htmlImageParams": {
+      "type": "object",
+      "properties": {
+        "model": { "type": "string" },
+        "provider": {
+          "type": "string",
+          "enum": ["openai", "anthropic"],
+          "default": "openai"
+        }
+      },
+      "additionalProperties": false
+    },
+    "textSlideParams": {
+      "type": "object",
+      "properties": {
+        "cssStyles": {
+          "anyOf": [
+            { "type": "string" },
+            {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          ]
+        }
+      },
+      "required": ["cssStyles"],
+      "additionalProperties": false
+    },
+    "captionParams": {
+      "type": "object",
+      "properties": {
+        "lang": { "type": "string" },
+        "styles": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": []
+        }
+      },
+      "additionalProperties": false
+    },
+    "audioParams": {
+      "type": "object",
+      "properties": {
+        "padding": { "type": "number", "default": 0.3 },
+        "introPadding": { "type": "number", "default": 1 },
+        "closingPadding": { "type": "number", "default": 0.8 },
+        "outroPadding": { "type": "number", "default": 1 },
+        "bgmVolume": { "type": "number", "default": 0.2 },
+        "audioVolume": { "type": "number", "default": 1 }
+      },
+      "additionalProperties": false
+    },
+    "title": { "type": "string" },
+    "description": { "type": "string" },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": { "type": "string", "format": "uri" },
+          "title": { "type": "string" },
+          "description": { "type": "string" },
+          "type": {
+            "type": "string",
+            "enum": ["article", "paper", "image", "video", "audio"],
+            "default": "article"
+          }
+        },
+        "required": ["url"],
+        "additionalProperties": false
+      }
+    },
+    "lang": { "type": "string" },
+    "beats": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "speaker": { "type": "string", "default": "Presenter" },
+          "text": { "type": "string", "default": "" },
+          "id": { "type": "string" },
+          "description": { "type": "string" },
+          "image": {
+            "anyOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "type": { "type": "string", "const": "markdown" },
+                  "markdown": {
+                    "anyOf": [{ "type": "string" }, { "type": "array", "items": { "type": "string" } }]
+                  }
+                },
+                "required": ["type", "markdown"],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "type": { "type": "string", "const": "textSlide" },
+                  "slide": {
+                    "type": "object",
+                    "properties": {
+                      "title": { "type": "string" },
+                      "subtitle": { "type": "string" },
+                      "bullets": {
+                        "type": "array",
+                        "items": { "type": "string" }
+                      }
+                    },
+                    "required": ["title"],
+                    "additionalProperties": false
+                  }
+                },
+                "required": ["type", "slide"],
+                "additionalProperties": false
+              }
+            ]
+          },
+          "audio": {
+            "type": "object",
+            "properties": {
+              "type": { "type": "string", "const": "audio" },
+              "source": {
+                "anyOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "kind": { "type": "string", "const": "url" },
+                      "url": { "type": "string", "format": "uri" }
+                    },
+                    "required": ["kind", "url"],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "kind": { "type": "string", "const": "path" },
+                      "path": { "type": "string" }
+                    },
+                    "required": ["kind", "path"],
+                    "additionalProperties": false
+                  }
+                ]
+              }
+            },
+            "required": ["type", "source"],
+            "additionalProperties": false
+          },
+          "duration": { "type": "number" },
+          "imagePrompt": { "type": "string" },
+          "moviePrompt": { "type": "string" }
+        },
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "imagePath": { "type": "string" },
+    "__test_invalid__": { "type": "boolean" }
+  },
+  "required": ["$mulmocast", "beats"],
+  "additionalProperties": false
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Movie Trailer template",
+  "description": "Template for A Movie Trailer.",
+  "systemPrompt": "Generate a script for a movie trailer of the given story. Another AI will generate images for each beat based on the image prompt of that beat. Movie prompts must be written in English.",
+  "presentationStyle": {
+    "$mulmocast": {
+      "version": "1.1"
+    },
+    "canvasSize": {
+      "width": 1280,
+      "height": 720
+    },
+    "imageParams": {
+      "style": "<style>Photo realistic, cinematic.</style>"
+    },
+    "audioParams": {
+      "padding": 0.0,
+      "introPadding": 0.0,
+      "closingPadding": 0.0,
+      "outroPadding": 2.5,
+      "bgm": { "kind": "url", "url": "https://raw.githubusercontent.com/receptron/mulmocast-media/refs/heads/main/bgms/trailer_dramatic.mp3" }
+    }
+  },
+  "scriptName": "movie_prompts_no_text_template.json"
+}

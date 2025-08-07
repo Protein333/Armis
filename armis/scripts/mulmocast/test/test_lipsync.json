@@ -1,0 +1,62 @@
+{
+  "$mulmocast": { "version": "1.1" },
+  "lipSyncParams": {
+    "provider": "replicate",
+    "model": "bytedance/latentsync"
+  },
+  "audioParams": {
+    "bgmVolume": 0.01,
+    "introPadding": 0,
+    "padding": 0.0
+  },
+  "lang": "en",
+  "beats": [
+    {
+      "id": "presenter_introduction",
+      "text": "Welcome to our presentation on artificial intelligence. Today we'll explore the fascinating world of machine learning.",
+      "moviePrompt": "A professional female presenter standing in front of a modern presentation screen, speaking confidently to an audience",
+      "enableLipSync": true
+    },
+    {
+      "id": "explaining_concepts",
+      "text": "Machine learning algorithms can process vast amounts of data to identify patterns and make predictions about future outcomes.",
+      "moviePrompt": "A close-up view of a female presenter explaining complex concepts with animated data visualizations and charts in the background",
+      "enableLipSync": true
+    },
+    {
+      "id": "real_world_examples",
+      "text": "From personalized recommendations on streaming services to fraud detection in banking, machine learning is already shaping our everyday lives.",
+      "imagePrompt": "A female presenter is hoding a phone in her hand.",
+      "moviePrompt": "Scenes a female presenter showing apps on smartphones, online shopping, and bank transactions, illustrating AI in real-world scenarios",
+      "enableLipSync": true,
+      "lipSyncParams": {
+        "model": "tmappdev/lipsync"
+      }
+    },
+    {
+      "id": "future_omni_human_photo_realistic",
+      "text": "In the future, advancements in AI could revolutionize industries like healthcare, education, and transportation.",
+      "imagePrompt": "A female presenter is standing in front of a futuristic cityscape with AI-powered hospital and an autonomous vehicle. Photo realistic.",
+      "enableLipSync": true,
+      "lipSyncParams": {
+        "model": "bytedance/omni-human"
+      }
+    },
+    {
+      "id": "future_possibilities",
+      "text": "In the future, advancements in AI could revolutionize industries like healthcare, education, and transportation.",
+      "imagePrompt": "A female presenter is standing in front of a futuristic cityscape with AI-powered hospital and an autonomous vehicle.",
+      "moviePrompt": "A female presenter in a futuristic cityscape with AI-powered hospitals, autonomous vehicles, and interactive learning environments",
+      "enableLipSync": true,
+      "lipSyncParams": {
+        "model": "tmappdev/lipsync"
+      }
+    },
+    {
+      "id": "concluding_remarks",
+      "text": "Thank you for your attention. I hope this presentation has provided valuable insights into the world of artificial intelligence.",
+      "moviePrompt": "A female presenter concluding their talk with a warm smile, gesturing towards the audience in a modern conference room",
+      "enableLipSync": true
+    }
+  ]
+}

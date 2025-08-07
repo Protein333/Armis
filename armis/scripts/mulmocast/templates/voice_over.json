@@ -1,0 +1,61 @@
+{
+  "$mulmocast": {
+    "version": "1.1"
+  },
+  "lang": "en",
+  "title": "Voice Over Test",
+  "captionParams": {
+    "lang": "en"
+  },
+  "canvasSize": {
+    "width": 1552,
+    "height": 2064
+  },
+  "beats": [
+    {
+      "text": "Description of this section of the movie",
+      "image": {
+        "type": "movie",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/receptron/mulmocast-media/raw/refs/heads/main/movies/actions.mp4"
+        }
+      }
+    },
+    {
+      "text": "Description of this section of the movie starting at 8 seconds",
+      "image": {
+        "type": "voice_over",
+        "startAt": 8.0
+      }
+    },
+    {
+      "text": "Description of this section of the movie starting at 14.5 seconds",
+      "image": {
+        "type": "voice_over",
+        "startAt": 14.5
+      }
+    },
+    {
+      "text": "Description of this section of the movie starting at 21 seconds",
+      "image": {
+        "type": "voice_over",
+        "startAt": 21.0
+      }
+    },
+    {
+      "text": "Description of this section of the movie starting at 25 seconds",
+      "image": {
+        "type": "voice_over",
+        "startAt": 25.0
+      }
+    },
+    {
+      "text": "Description of this section of the movie starting at 30 seconds",
+      "image": {
+        "type": "voice_over",
+        "startAt": 30.0
+      }
+    }
+  ]
+}

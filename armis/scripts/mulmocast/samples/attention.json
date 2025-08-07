@@ -1,0 +1,157 @@
+{
+  "$mulmocast": {
+    "version": "1.0",
+    "credit": "closing"
+  },
+  "title": "Sample Title",
+  "canvasSize": {
+    "width": 1536,
+    "height": 1024
+  },
+  "imageParams": {
+    "style": "Style appropriate for business environment."
+  },
+  "speechParams": {
+    "speakers": {
+      "Presenter": {
+        "voiceId": "shimmer",
+        "displayName": {
+          "en": "Presenter",
+          "ja": "語り手"
+        }
+      }
+    }
+  },
+  "textSlideParams": {
+    "cssStyles": [
+      "body { padding: 40px; padding-top: 60px; font-family: Arial, sans-serif;color:#333; font-size: 36px }",
+      "h1 { font-size: 50px; text-align: center }",
+      "ul { margin-left: 36px } ",
+      "pre { background: #eeeecc; font-size: 24px; padding:10px }",
+      "p { margin-left: 36px }",
+      "table { font-size: 36px; margin: auto; border: 1px solid gray; border-collapse: collapse }",
+      "th { border-bottom: 1px solid gray }",
+      "td, th { padding: 8px }",
+      "tr:nth-child(even) { background-color: #eee }"
+    ]
+  },
+  "lang": "en",
+  "beats": [
+    {
+      "speaker": "Presenter",
+      "text": "In 2017, a revolutionary paper was published that would fundamentally change the landscape of artificial intelligence. Today, we'll explore 'Attention Is All You Need' - one of the most influential research papers in AI history.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Attention Is All You Need",
+          "bullets": ["Published 2017", "Revolutionary AI architecture", "173,000+ citations as of 2025"]
+        }
+      },
+      "textSlideParams": {
+        "cssStyles": ["h1 { margin-top: 300px }"]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "This groundbreaking paper was authored by eight researchers at Google: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan Gomez, Łukasz Kaiser, and Illia Polosukhin. Their work has accumulated over 173,000 citations in just eight years - a testament to its profound impact.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "The Authors",
+          "bullets": ["Ashish Vaswani", "Noam Shazeer", "Niki Parmar", "Jakob Uszkoreit", "Llion Jones", "Aidan Gomez", "Łukasz Kaiser", "Illia Polosukhin"]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "What makes this paper so significant? It introduced the Transformer - an architecture that would become the foundation for virtually all modern large language models and many other AI systems. From GPT to BERT to Claude, from image generators to video creators - the Transformer architecture powers them all.",
+      "image": {
+        "type": "mermaid",
+        "title": "Transformer's Influence on AI",
+        "code": {
+          "kind": "text",
+          "text": "graph TD\n    A[Transformer 2017] --> B[BERT]\n    A --> C[GPT Series]\n    A --> D[Claude]\n    A --> E[T5]\n    A --> F[Vision Transformer]\n    A --> G[DALL-E/Stable Diffusion]\n    A --> H[Sora]\n    style A fill:#f9f,stroke:#333,stroke-width:4px"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Before the Transformer, AI researchers faced significant challenges in sequence transduction tasks like machine translation. The existing models relied on complex architectures that had fundamental limitations. ",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "The Pre-Transformer Landscape",
+          "bullets": [
+            "Sequence transduction models (e.g., machine translation)",
+            "Dominated by RNNs and CNNs",
+            "Fundamental limitations in performance and efficiency"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Recurrent Neural Networks, or RNNs, were the standard approach. While powerful, they processed tokens sequentially - word after word, character after character. This sequential nature made them impossible to parallelize effectively, resulting in painfully slow training times as sequence lengths increased.",
+      "image": {
+        "type": "mermaid",
+        "title": "RNN Sequential Processing",
+        "code": {
+          "kind": "text",
+          "text": "graph LR\n    A[Input 1] --> B[RNN Cell]\n    B --> C[Hidden State]\n    C --> D[RNN Cell]\n    E[Input 2] --> D\n    D --> F[Hidden State]\n    F --> G[RNN Cell]\n    H[Input 3] --> G\n    G --> I[Hidden State]\n    style B fill:#f96,stroke:#333,stroke-width:2px\n    style D fill:#f96,stroke:#333,stroke-width:2px\n    style G fill:#f96,stroke:#333,stroke-width:2px\n    style C fill:#69f,stroke:#333,stroke-width:2px\n    style F fill:#69f,stroke:#333,stroke-width:2px\n    style I fill:#69f,stroke:#333,stroke-width:2px"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Convolutional Neural Networks, or CNNs, offered some parallelization advantages, but they struggled with long-range dependencies. The further apart two related words or concepts were in a text, the harder it became for CNNs to capture their relationship effectively - a critical limitation for complex language understanding.",
+      "image": {
+        "type": "chart",
+        "title": "Performance vs. Sequence Distance",
+        "chartData": {
+          "type": "line",
+          "data": {
+            "labels": ["1", "5", "10", "20", "50", "100"],
+            "datasets": [
+              {
+                "label": "RNN Performance",
+                "data": [95, 90, 82, 70, 45, 30],
+                "backgroundColor": "rgba(255, 99, 132, 0.2)",
+                "borderColor": "rgba(255, 99, 132, 1)",
+                "borderWidth": 2,
+                "pointRadius": 4
+              },
+              {
+                "label": "CNN Performance",
+                "data": [95, 92, 85, 65, 40, 25],
+                "backgroundColor": "rgba(54, 162, 235, 0.2)",
+                "borderColor": "rgba(54, 162, 235, 1)",
+                "borderWidth": 2,
+                "pointRadius": 4
+              }
+            ]
+          },
+          "options": {
+            "responsive": true,
+            "animation": false,
+            "scales": {
+              "x": {
+                "title": {
+                  "display": true,
+                  "text": "Distance Between Related Tokens"
+                }
+              },
+              "y": {
+                "title": {
+                  "display": true,
+                  "text": "Model Performance (%)"
+                },
+                "min": 0,
+                "max": 100
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

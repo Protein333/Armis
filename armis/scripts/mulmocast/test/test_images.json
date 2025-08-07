@@ -1,0 +1,49 @@
+{
+  "$mulmocast": {
+    "version": "1.1"
+  },
+  "lang": "en",
+  "title": "Test Images",
+  "imageParams": {
+    "style": "Photorealistic-style",
+    "provider": "google"
+  },
+  "beats": [
+    {
+      "text": "Image with default provider and model",
+      "imagePrompt": "Blue sky, a flock of birds"
+    },
+    {
+      "text": "Image with openai provider",
+      "imagePrompt": "Blue sky, a flock of birds",
+      "imageParams": {
+        "provider": "openai"
+      }
+    },
+    {
+      "text": "Image with Dall-E 3",
+      "imagePrompt": "Blue sky, a flock of birds",
+      "imageParams": {
+        "model": "dall-e-3",
+        "style": "anime-style",
+        "provider": "openai"
+      }
+    },
+    {
+      "id": "image_with_quality",
+      "text": "Image with low quality",
+      "imagePrompt": "Blue sky, a flock of birds",
+      "imageParams": {
+        "quality": "low"
+      }
+    },
+    {
+      "id": "image_with_medium_quality",
+      "text": "Image with medium quality",
+      "imagePrompt": "Blue sky, a flock of birds",
+      "imageParams": {
+        "quality": "medium"
+      }
+    }
+  ]
+}

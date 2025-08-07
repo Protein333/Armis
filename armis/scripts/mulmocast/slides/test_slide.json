@@ -1,0 +1,138 @@
+{
+  "$mulmocast": {
+    "version": "1.0",
+    "credit": "closing"
+  },
+  "title": "Human Evolution",
+  "textSlideParams": {
+    "cssStyles": [
+      "body { margin: 40px; margin-top: 60px; color:#333; font-size: 48px }",
+      "h1 { font-size: 60px; text-align: center; color:red }",
+      "ul { margin-left: 40px } ",
+      "li { font-size: 48px }",
+      "pre { margin-left: 40px; font-size: 32px }",
+      "p { margin-left: 40px }"
+    ]
+  },
+  "speechParams": {
+    "speakers": {
+      "Presenter": {
+        "voiceId": "shimmer",
+        "displayName": {
+          "en": "Presenter"
+        }
+      }
+    }
+  },
+  "imageParams": {
+    "model": "gpt-image-1",
+    "moderation": "low"
+  },
+  "beats": [
+    {
+      "speaker": "Presenter",
+      "text": "This is our logo.",
+      "image": {
+        "type": "image",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/receptron/mulmocast-cli/raw/refs/heads/main/assets/images/mulmocast_credit.png"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "The evolution of humans is a complex journey that spans millions of years, shaped by biology, environment, and culture. Here's a high-level summary of the key stages in human evolution",
+      "textSlideParams": {
+        "cssStyles": ["body { background:#ffffcc }", "h1 { color:green }"]
+      },
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Human Evolution",
+          "bullets": [
+            "Early Primates",
+            "Hominids and Hominins",
+            "Australopithecus",
+            "Genus Homo Emerges",
+            "Homo erectus and Migration",
+            "Neanderthals and Other Archaic Humans",
+            "Homo sapiens"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Our story begins with tree-dwelling primates—small mammals with forward-facing eyes and grasping hands. These ancestors lived in forests and evolved traits useful for climbing and visual depth perception.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Early Primates",
+          "bullets": [
+            "~60–50 million years ago",
+            "tree-dwelling small mammals in forests",
+            "forward-facing eyes",
+            "traits useful for climbing and visual depth perception"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "The line that would eventually lead to humans diverged from other primates around 6-7 million years ago. These early hominids and hominins were the first to show adaptations for walking upright, a crucial development in our evolutionary journey."
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Our story begins with tree-dwelling primates—small mammals with forward-facing eyes and grasping hands. These ancestors lived in forests and evolved traits useful for climbing and visual depth perception.",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "# Coding Example",
+          "Here is a sample JSON code",
+          "```json",
+          "\"imageParams\": {",
+          "  \"model\": \"gpt-image-1\"",
+          "  \"size\": \"1536x1024\"",
+          "  \"moderation\": \"low\"",
+          "}",
+          "```"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "This page shows the sales and profits of this company from January 2024 to June 2024.",
+      "image": {
+        "type": "chart",
+        "title": "Sales and Profits (from Jan to June)",
+        "chartData": {
+          "type": "bar",
+          "data": {
+            "labels": ["January", "February", "March", "April", "May", "June"],
+            "datasets": [
+              {
+                "label": "Revenue ($1000s)",
+                "data": [120, 135, 180, 155, 170, 190],
+                "backgroundColor": "rgba(54, 162, 235, 0.5)",
+                "borderColor": "rgba(54, 162, 235, 1)",
+                "borderWidth": 1
+              },
+              {
+                "label": "Profit ($1000s)",
+                "data": [45, 52, 68, 53, 61, 73],
+                "backgroundColor": "rgba(75, 192, 192, 0.5)",
+                "borderColor": "rgba(75, 192, 192, 1)",
+                "borderWidth": 1
+              }
+            ]
+          },
+          "options": {
+            "responsive": true,
+            "animation": false
+          }
+        }
+      }
+    }
+  ]
+}

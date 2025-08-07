@@ -1,0 +1,50 @@
+{
+  "$mulmocast": {
+    "version": "1.1"
+  },
+  "lang": "en",
+  "title": "Test Image References",
+  "imageParams": {
+    "style": "Ghibli-style",
+    "images": {
+      "witch": {
+        "type": "imagePrompt",
+        "prompt": "A witch with a green hair, wearing a black robe"
+      },
+      "cat": {
+        "type": "imagePrompt",
+        "prompt": "A tiny black cat with a green eyes"
+      },
+      "broom": {
+        "type": "imagePrompt",
+        "prompt": "A yellow, old broomstick"
+      }
+    }
+  },
+  "beats": [
+    {
+      "text": "Hello World with a witch and a broom",
+      "imagePrompt": "Saying hello to the world",
+      "imageNames": ["witch", "broom"]
+    },
+    {
+      "text": "Hello World with a cat alone",
+      "imagePrompt": "Saying hello to the world",
+      "imageNames": ["cat"]
+    },
+    {
+      "text": "Hello World with a witch and a cat",
+      "imagePrompt": "Saying hello to the world",
+      "imageNames": ["witch", "cat"]
+    },
+    {
+      "text": "Hello World with all reference images",
+      "imagePrompt": "Saying hello to the world"
+    },
+    {
+      "text": "Hello World with no reference image",
+      "imagePrompt": "Saying hello to the world",
+      "imageNames": []
+    }
+  ]
+}

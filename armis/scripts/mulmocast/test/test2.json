@@ -1,0 +1,66 @@
+{
+  "$mulmocast": {
+    "version": "1.1",
+    "credit": "closing"
+  },
+  "title": "AIの進化と私たちの未来 - サム・アルトマン氏の3つの観察",
+  "description": "OpenAIのサム・アルトマン氏による、AIの進化と社会への影響に関する洞察を、高校生向けに分かりやすく解説する対話形式のスクリプト。",
+  "references": [
+    {
+      "url": "https://blog.samaltman.com/three-observations",
+      "title": "Three Observations",
+      "description": "An article on AI's evolution and its impact on society by Sam Altman."
+    }
+  ],
+  "lang": "ja",
+  "imageParams": {
+    "style": "<style>monochrome"
+  },
+  "speechParams": {
+    "provider": "nijivoice",
+    "speakers": {
+      "Announcer": {
+        "displayName": {
+          "ja": "千草朋香"
+        },
+        "voiceId": "3708ad43-cace-486c-a4ca-8fe41186e20c"
+      },
+      "Student": {
+        "displayName": {
+          "ja": "太郎"
+        },
+        "voiceId": "a7619e48-bf6a-4f9f-843f-40485651257f"
+      },
+      "Teacher": {
+        "displayName": {
+          "ja": "山田先生"
+        },
+        "voiceId": "bc06c63f-fef6-43b6-92f7-67f919bd5dae"
+      }
+    }
+  },
+  "beats": [
+    {
+      "speaker": "Announcer",
+      "text": "私たちの目の前で、人工知能の革命が静かに、",
+      "speechOptions": {
+        "speed": 1.5
+      },
+      "imagePrompt": "A futuristic scene depicting the quiet but certain advancement of AI, with digital interfaces and abstract representations of AI technology shaping the future."
+    },
+    {
+      "speaker": "Announcer",
+      "text": "しかし確実に進んでいます。",
+      "speechOptions": {
+        "speed": 1.5
+      }
+    },
+    {
+      "speaker": "Announcer",
+      "text": "オープンエーアイのサム・アルトマン氏が語る「3つの重要な観察」とは何か？",
+      "speechOptions": {
+        "speed": 1.5
+      }
+    }
+  ]
+}

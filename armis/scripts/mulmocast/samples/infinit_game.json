@@ -1,0 +1,158 @@
+{
+  "$mulmocast": {
+    "version": "1.0",
+    "credit": "closing"
+  },
+  "title": "AI WAR & INFINITE GAMES: RETHINKING US-CHINA TECH COMPETITION",
+  "description": "This episode explores the problematic framing of US-China AI competition as a 'war' that can be won. Drawing on game theory concepts of finite versus infinite games, we examine how export controls and trade tensions are creating market uncertainty while potentially undermining American competitiveness in the global AI landscape.",
+  "speechParams": {
+    "speakers": {
+      "Host": {
+        "voiceId": "shimmer",
+        "displayName": {
+          "en": "Host"
+        }
+      },
+      "Guest": {
+        "voiceId": "echo",
+        "displayName": {
+          "en": "Dr. Andrew Chen"
+        }
+      }
+    }
+  },
+  "references": [
+    {
+      "url": "https://www.youtube.com/watch?v=SPfE5SS7fc0",
+      "title": "Tariffs, Free Trade, Export Controls, H20 & Rare Earth Ban | BG2 w/ Bill Gurley & Brad Gerstner",
+      "description": "A video on the US-China trade war by Bill Gurley and Brad Gerstner."
+    }
+  ],
+  "lang": "en",
+  "beats": [
+    {
+      "speaker": "Host",
+      "text": "Welcome to Mulmocast Tech Insights, where we explore the most pressing challenges in global technology today. I'm your host, and in this episode, we're examining the increasingly tense tech competition between the US and China, particularly focusing on the problematic framing of an 'AI war.'"
+    },
+    {
+      "speaker": "Host",
+      "text": "Recently, we've seen escalating trade tensions, including export controls on AI chips and rare earth minerals. Today, we'll unpack these developments, examine their market impact, and discuss alternative frameworks for thinking about international technology competition."
+    },
+    {
+      "speaker": "Host",
+      "text": "Joining me again is Dr. Andrew Chen, a technology strategist who specializes in international tech relations and AI governance. Welcome back to the show, Dr. Chen."
+    },
+    {
+      "speaker": "Guest",
+      "text": "Thanks for having me again. This is certainly a critical moment for US-China tech relations, with significant implications for the global economy."
+    },
+    {
+      "speaker": "Host",
+      "text": "Let's start with this concept of an 'AI war' between the US and China. You've expressed skepticism about this framing. Can you explain why you find it problematic?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "The 'AI war' framing fundamentally misunderstands the nature of technological competition. It treats AI development as what game theorists call a 'finite game' - one with clear winners and losers, like a football match. But in reality, technological advancement is an 'infinite game' with no defined endpoint or ultimate winner."
+    },
+    {
+      "speaker": "Host",
+      "text": "That's an interesting distinction. Could you elaborate on the difference between finite and infinite games, and how it applies to US-China competition?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "Certainly. Finite games have fixed rules, known players, and a clear endpoint - think chess or basketball. Infinite games, by contrast, have changing rules, changing players, and the goal is to keep playing, not to 'win' in a definitive sense. International relations, scientific advancement, and technology development are all infinite games. When we try to play infinite games with a finite mindset, we risk making serious strategic errors."
+    },
+    {
+      "speaker": "Host",
+      "text": "We've seen some major moves in this supposed 'AI war' recently. On April 5th, China implemented a ban on rare earth exports, and the US retaliated with restrictions on Nvidia's H20 chips. What's your assessment of these export controls?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "These export controls demonstrate precisely the problem with finite-game thinking. Rare earth minerals are crucial for everything from EVs to smartphones, and while they're mined globally, China refines 90% of them. Meanwhile, Nvidia's H20 chips were specifically designed to comply with previous export rules. These bans don't just hurt the obvious targets - they create cascading effects throughout global supply chains."
+    },
+    {
+      "speaker": "Host",
+      "text": "Speaking of effects, markets have responded quite negatively to these developments. Since what some analysts are calling 'liberation day' on April 2nd, we've seen a 15% market decline. What's driving this investor anxiety?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "Investors hate uncertainty above all else, and the escalating trade tensions create massive uncertainty. Companies are delaying decisions, providing unusually wide ranges in earnings guidance, and CEOs are expressing unprecedented caution. There's growing concern about a global trade war that could significantly impact S&P earnings, which may not be fully reflected in current projections."
+    },
+    {
+      "speaker": "Host",
+      "text": "There's also talk about a potential ban on Deepseek models, which some consider the best performing and most open AI models currently available. What might be the consequences of such a move?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "This potential Deepseek ban perfectly illustrates the backfire risk of export controls. If the US bans Deepseek, we could inadvertently push other countries toward collaboration with China. They might optimize Deepseek models on Huawei chips, creating exactly the scenario we're trying to prevent. Additionally, vilifying Chinese AI innovation damages America's international standing and reinforces the narrative that we're playing a zero-sum game."
+    },
+    {
+      "speaker": "Host",
+      "text": "Let's talk about innovation more broadly. Some argue that preventing Chinese access to advanced technology will preserve American advantage. But you seem skeptical of this approach."
+    },
+    {
+      "speaker": "Guest",
+      "text": "Innovation isn't exclusive to any one country. Ideas spread quickly, and building on others' work is how progress happens. OpenAI's models build on research from around the world. In an infinite game, the goal isn't to 'beat' others but to continually improve yourself. The better strategy would be focusing on accelerating US innovation rather than trying to impede China's progress."
+    },
+    {
+      "speaker": "Host",
+      "text": "That brings us to Ronald Reagan's perspective on tariffs. In one of his last speeches, he warned about the dangers of protectionism, arguing that tariffs ultimately harm domestic industries and consumers. Do those arguments still apply today?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "Reagan's warnings remain remarkably relevant. He noted that protected industries become reliant on government help rather than innovation, that tariffs trigger retaliation, and that artificially high prices hurt consumers and shrink markets. Milton Friedman used the analogy of shooting holes in a boat - retaliatory tariffs just make everyone sink faster. The economic fundamentals haven't changed."
+    },
+    {
+      "speaker": "Host",
+      "text": "But what about the argument that some domestic production is essential for national security? Chips, pharmaceuticals, rare earth minerals - don't we need some reshoring of critical industries?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "There's definitely a case for tactical reshoring of truly critical national security technologies. But the focus should be on an 'accelerationist agenda' - using tax incentives and reducing regulatory barriers to make domestic production more competitive, rather than just blocking imports. The question shouldn't be 'How do we stop China?' but 'Why does it cost so much more to build things in America, and how do we fix that?'"
+    },
+    {
+      "speaker": "Host",
+      "text": "Despite the current market struggles, there seems to be some cautious optimism that trade deals will eventually materialize. What might these look like, and when might we expect more predictability?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "The most likely scenario is that we'll eventually see tariffs settle around 5-10% for most countries, with China-specific tariffs perhaps at 25-30%. That's still higher than previously, but would provide the predictability markets desperately need. The concern is timing - businesses and markets need clarity soon, not months from now. The longer uncertainty persists, the greater the risk of a self-reinforcing economic downturn."
+    },
+    {
+      "speaker": "Host",
+      "text": "Let's circle back to the concept of interdependence. You've suggested that interdependence isn't a choice but a condition. What do you mean by that?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "Global economies are irreversibly interconnected. The real choice isn't between dependence and independence, but between healthy and unhealthy interdependence. We can forge relationships that create mutual benefit and stability, or we can maintain antagonistic relationships that risk mutual harm. The zero-sum, finite game mindset leads to the latter. An infinite game approach focuses on creating conditions where all participants can thrive."
+    },
+    {
+      "speaker": "Host",
+      "text": "Looking at historical parallels, you've compared current AI fears to early concerns about the space race. What lessons should we draw from that comparison?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "The early space race generated fears that whoever controlled space would dominate the world militarily. Those fears never materialized. Similarly, current fears about AI domination may be exaggerated. We should be cautious about letting worst-case scenarios drive policy decisions that could have significant economic and diplomatic costs. History suggests technological development rarely follows the most feared trajectories."
+    },
+    {
+      "speaker": "Host",
+      "text": "Finally, if you were advising policymakers right now, what approach would you recommend to technology competition with China?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "I'd recommend adopting an infinite game mindset focused on three principles. First, invest heavily in America's own innovation ecosystem, removing barriers to building and scaling new technologies. Second, maintain technological exchange where it benefits American interests, recognizing that isolation often slows rather than accelerates progress. And third, build international coalitions based on shared values and standards, not fear of a common adversary. The goal shouldn't be to 'win' but to ensure America continues to thrive in a complex, interconnected world."
+    },
+    {
+      "speaker": "Host",
+      "text": "Dr. Chen, thank you for these thought-provoking insights on rethinking US-China tech competition. There's clearly much more nuance needed in how we approach these critical issues."
+    },
+    {
+      "speaker": "Guest",
+      "text": "Thank you for having me. These are challenging questions with significant implications for global prosperity and security. I hope we can move toward more productive frameworks that recognize the true nature of technological advancement."
+    },
+    {
+      "speaker": "Host",
+      "text": "That's all for today's episode of Mulmocast Tech Insights. If you found this analysis valuable, please subscribe to our podcast and share it with colleagues interested in international technology policy. We'll be back next week with more insights into the challenges and opportunities facing today's tech leaders. Thanks for listening."
+    }
+  ]
+}

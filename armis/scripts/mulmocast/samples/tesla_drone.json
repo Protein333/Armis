@@ -1,0 +1,142 @@
+{
+  "$mulmocast": {
+    "version": "1.0",
+    "credit": "closing"
+  },
+  "title": "GLOBAL COMPETITION IN PHYSICAL AI: CHINA VS US",
+  "description": "This episode explores the global competition in physical AI between China and the United States, focusing on humanoid robots and drones. Based on Elon Musk's insights from Tesla's 2025 Q1 earnings call and recent market analysis, we examine where each country stands, their relative strengths, and what this means for the future of technology and national security.",
+  "speechParams": {
+    "speakers": {
+      "Host": {
+        "voiceId": "shimmer",
+        "displayName": {
+          "en": "Host"
+        }
+      },
+      "Guest": {
+        "voiceId": "echo",
+        "displayName": {
+          "en": "Guest"
+        }
+      }
+    }
+  },
+  "references": [
+    {
+      "url": "https://ir.tesla.com/#quarterly-disclosure",
+      "title": "Tesla 2025 Q1 Earnings Call Webcast",
+      "description": "A webcast of Tesla's 2025 Q1 earnings call."
+    }
+  ],
+  "lang": "en",
+  "beats": [
+    {
+      "speaker": "Host",
+      "text": "Welcome to Mulmocast Tech Insights, where we explore the cutting edge of technology and its global implications. I'm your host, and today we're diving into the fascinating world of physical AI - specifically humanoid robots and drones - and the intensifying competition between China and the United States in this arena."
+    },
+    {
+      "speaker": "Host",
+      "text": "During Tesla's 2025 Q1 earnings call, Elon Musk made some striking comments about where the US and China stand in the development of physical AI. Today, we'll unpack those statements, examine the current landscape, and discuss what's at stake for both nations."
+    },
+    {
+      "speaker": "Host",
+      "text": "Joining me is Dr. Andrew Chen, a technology analyst specializing in robotics and international tech policy. Welcome to the show, Dr. Chen."
+    },
+    {
+      "speaker": "Guest",
+      "text": "Thanks for having me. It's a fascinating topic with huge implications for the future."
+    },
+    {
+      "speaker": "Host",
+      "text": "Let's start with what Elon Musk said. When asked by analyst Adam Jonas about who's ahead in physical AI development between China and the US, Musk was quite direct about drones, saying 'China manufactures about 70% of all drones' and that America 'cannot currently manufacture its own drones' without Chinese components."
+    },
+    {
+      "speaker": "Guest",
+      "text": "What Musk said aligns with market research. Chinese company DJI alone supplies around 70% of the world's drone users, and when you look at the entire supply chain, almost 100% of drones have some dependency on Chinese parts. This creates a strategic vulnerability for the United States."
+    },
+    {
+      "speaker": "Host",
+      "text": "It seems the issue isn't just about who sells the most drones, but who controls the components that go into them, right?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "Exactly. Even American-designed drones rely heavily on Chinese components - everything from microelectronics to motors, sensors, and batteries. There was a recent case where China blocked battery shipments to Skydio, America's largest drone manufacturer, showing how quickly this dependency can become a real problem."
+    },
+    {
+      "speaker": "Host",
+      "text": "Turning to humanoid robots, Musk was more confident about Tesla's position, claiming 'there's no company in any country that can match Tesla' and that he's 'confident that rank one will be Tesla,' though he did express concern that 'ranks two through 10 will be Chinese companies.'"
+    },
+    {
+      "speaker": "Guest",
+      "text": "The humanoid robot landscape is certainly different from drones. Tesla's Optimus project is ambitious, with plans to produce about 5,000 units this year. But Chinese companies like Unitree Robotics and Agibot are matching those ambitions. Unitree released its G1 humanoid robot at $16,000, while Tesla's Optimus is estimated to cost around $20,000 - and that's only if they can use cost-effective components from China."
+    },
+    {
+      "speaker": "Host",
+      "text": "It sounds like each country has different strengths. Could you elaborate on that?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "China's great advantage is manufacturing at scale. They're the world's manufacturing superpower, with production exceeding the nine next largest manufacturers combined. The United States, meanwhile, leads in cutting-edge technologies, with companies like Nvidia developing the advanced AI that powers these systems. A humanoid robot's software 'brain' accounts for roughly 80% of its value, and many Chinese companies still prefer Nvidia chips for their advanced AI capabilities."
+    },
+    {
+      "speaker": "Host",
+      "text": "So we have this interesting situation where China dominates manufacturing, but America may lead in the highest-value intellectual property. How do you see this playing out over the next few years?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "This is creating an uncomfortable interdependence. The US needs Chinese manufacturing capacity, while China still relies on some US technology. But both sides are working to reduce these dependencies. China has identified humanoid robots as a key area for technological competition, with goals to establish a world-class ecosystem by this year and integrate humanoid robots into manufacturing supply chains by 2027."
+    },
+    {
+      "speaker": "Host",
+      "text": "What about market projections? Is this going to be as significant as some are suggesting?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "The growth projections are substantial. Goldman Sachs anticipates the humanoid robot market reaching $38 billion by 2035. Other analysts project even more dramatic growth, with estimates ranging from $13 billion by 2029 to a staggering $243 billion by 2035. For context, the market is estimated at around $3 billion today."
+    },
+    {
+      "speaker": "Host",
+      "text": "Let's talk about the national security implications. How concerned should the US be about China's dominance in drone manufacturing?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "The security concerns are significant. There's the data vulnerability - Chinese-made drones collecting sensitive information that could be accessed by Beijing. There's the military edge - we've seen in Ukraine how critical commercial drones are in modern warfare. And finally, there's the supply chain vulnerability - being dependent on a potential adversary for both civilian and military technology creates strategic risks."
+    },
+    {
+      "speaker": "Host",
+      "text": "What steps are being taken to address these concerns?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "The US is trying to reduce its dependency through several approaches. There are efforts to develop domestic manufacturing capabilities, though this faces challenges due to higher costs. There's also 'friend-shoring' - developing supply chains with allied nations. And we're seeing increasing restrictions on Chinese drones in government and military applications, though these measures often include loopholes that Chinese manufacturers find ways to exploit."
+    },
+    {
+      "speaker": "Host",
+      "text": "Looking at the bigger picture, what does this competition in physical AI tell us about the broader technological rivalry between the US and China?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "It highlights how the technological competition between these superpowers is evolving. We're moving from a world where technological leadership was primarily about software and digital services to one where the integration of AI with physical systems - robots, drones, autonomous vehicles - becomes crucial. Countries that master both the digital and physical aspects of this new wave will have significant economic and strategic advantages."
+    },
+    {
+      "speaker": "Host",
+      "text": "To conclude, where do you see the biggest opportunities in this space, both for companies and for nations?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "For companies, the opportunities lie in creating systems that combine advanced AI with reliable, cost-effective hardware. For nations, success will come from building robust ecosystems that span the entire value chain - from semiconductor design to manufacturing to software and applications. Neither China nor the US has the complete package yet, which is why this competition remains so dynamic and unpredictable."
+    },
+    {
+      "speaker": "Host",
+      "text": "Dr. Chen, thank you for these insights into this fascinating technological competition. As physical AI continues to develop, we'll certainly be revisiting this topic to see how the landscape evolves."
+    },
+    {
+      "speaker": "Guest",
+      "text": "Thank you for having me. It's a rapidly evolving field, and the next few years will be critical in determining which approaches and which nations ultimately lead in this transformative technology."
+    },
+    {
+      "speaker": "Host",
+      "text": "That's all for today's episode of Mulmocast Tech Insights. If you found this analysis valuable, please subscribe to our podcast and leave us a review. We'll be back next week with more insights into the technologies shaping our future. Thanks for listening."
+    }
+  ]
+}

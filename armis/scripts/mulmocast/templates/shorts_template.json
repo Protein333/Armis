@@ -1,0 +1,52 @@
+{
+  "$mulmocast": {
+    "version": "1.1"
+  },
+  "title": "[TITLE: Brief, engaging title for the topic]",
+  "lang": "en",
+  "movieParams": {
+    "provider": "google"
+  },
+  "beats": [
+    {
+      "text": "[NARRATION: Short narration for the beat. Up to 20 words]",
+      "imagePrompt": "[IMAGE_PROMPT: A prompt for the image to be generated for this beat.]",
+      "moviePrompt": "[MOVIE_PROMPT: A movie prompt for that image.]"
+    },
+    {
+      "text": "[NARRATION: Short narration for the beat. Up to 20 words]",
+      "imagePrompt": "[IMAGE_PROMPT: A prompt for the image to be generated for this beat.]",
+      "moviePrompt": "[MOVIE_PROMPT: A movie prompt for that image.]"
+    },
+    {
+      "text": "[NARRATION: Short narration for the beat. Up to 20 words]",
+      "imagePrompt": "[IMAGE_PROMPT: A prompt for the image to be generated for this beat.]",
+      "moviePrompt": "[MOVIE_PROMPT: A movie prompt for that image.]"
+    },
+    {
+      "text": "[NARRATION: Short narration for the beat. Up to 20 words]",
+      "imagePrompt": "[IMAGE_PROMPT: A prompt for the image to be generated for this beat.]",
+      "moviePrompt": "[MOVIE_PROMPT: A movie prompt for that image.]"
+    },
+    {
+      "text": "[NARRATION: Short narration for the beat. Up to 20 words]",
+      "imagePrompt": "[IMAGE_PROMPT: A prompt for the image to be generated for this beat.]",
+      "moviePrompt": "[MOVIE_PROMPT: A movie prompt for that image.]"
+    },
+    {
+      "text": "[NARRATION: Short narration for the beat. Up to 20 words]",
+      "imagePrompt": "[IMAGE_PROMPT: A prompt for the image to be generated for this beat.]",
+      "moviePrompt": "[MOVIE_PROMPT: A movie prompt for that image.]"
+    },
+    {
+      "text": "[NARRATION: Short narration for the beat. Up to 20 words]",
+      "imagePrompt": "[IMAGE_PROMPT: A prompt for the image to be generated for this beat.]",
+      "moviePrompt": "[MOVIE_PROMPT: A movie prompt for that image.]"
+    },
+    {
+      "text": "[NARRATION: Short narration for the beat. Up to 20 words]",
+      "imagePrompt": "[IMAGE_PROMPT: A prompt for the image to be generated for this beat.]",
+      "moviePrompt": "[MOVIE_PROMPT: A movie prompt for that image.]"
+    }
+  ]
+}

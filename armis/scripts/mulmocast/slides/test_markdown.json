@@ -1,0 +1,74 @@
+{
+  "$mulmocast": {
+    "version": "1.0",
+    "credit": "closing"
+  },
+  "title": "Human Evolution",
+  "textSlideParams": {
+    "cssStyles": [
+      "body { margin: 40px; margin-top: 60px; color:#333 }",
+      "h1 { font-size: 60px; text-align: center; color:green }",
+      "ul { margin-left: 40px }",
+      "li { font-size: 48px }",
+      "table { font-size: 40px; margin: auto; border: 1px solid gray; border-collapse: collapse }",
+      "th { border-bottom: 1px solid gray }",
+      "td, th { padding: 8px }",
+      "tr:nth-child(even) { background-color: #eee }"
+    ]
+  },
+  "speechParams": {
+    "speakers": {
+      "Presenter": {
+        "voiceId": "shimmer",
+        "displayName": {
+          "en": "Presenter"
+        }
+      }
+    }
+  },
+  "beats": [
+    {
+      "speaker": "Presenter",
+      "text": "The evolution of humans is a complex journey that spans millions of years, shaped by biology, environment, and culture. Here's a high-level summary of the key stages in human evolution",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Human Evolution",
+          "bullets": [
+            "Early Primates",
+            "Hominids and Hominins",
+            "Australopithecus",
+            "Genus Homo Emerges",
+            "Homo erectus and Migration",
+            "Neanderthals and Other Archaic Humans",
+            "Homo sapiens"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Our story begins with tree-dwelling primates—small mammals with forward-facing eyes and grasping hands. These ancestors lived in forests and evolved traits useful for climbing and visual depth perception.",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "# Markdown Table Example",
+          "| Item              | In Stock | Price |",
+          "| :---------------- | :------: | ----: |",
+          "| Python Hat        |   True   | 23.99 |",
+          "| SQL Hat           |   True   | 23.99 |",
+          "| Codecademy Tee    |  False   | 19.99 |",
+          "| Codecademy Hoodie |  False   | 42.99 |"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Our story begins with tree-dwelling primates—small mammals with forward-facing eyes and grasping hands. These ancestors lived in forests and evolved traits useful for climbing and visual depth perception.",
+      "image": {
+        "type": "markdown",
+        "markdown": "```TypeScript\nmain() {\n  ...\n}\n"
+      }
+    }
+  ]
+}

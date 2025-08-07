@@ -1,0 +1,23 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.armis.app
+productName: Armis
+icon: public/icon.png
+files:
+  - filter:
+      - electron/**/*
+      - out/**/*
+      - node_modules/**/*
+      - package.json
+extraResources:
+  - from: out
+    to: out
+mac:
+  category: public.app-category.productivity
+  target: dmg
+win:
+  target: nsis
+linux:
+  target: AppImage
+electronVersion: 28.3.3

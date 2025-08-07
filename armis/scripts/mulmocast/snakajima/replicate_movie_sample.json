@@ -1,0 +1,30 @@
+{
+  "$mulmocast": { "version": "1.1", "credit": "closing" },
+  "title": "Moments of Childhood Joy",
+  "lang": "ja",
+  "movieParams": {
+    "provider": "replicate"
+  },
+  "canvasSize": { "width": 1536, "height": 1024 },
+  "imageParams": {
+    "style": "<style>Ghibli style</style>",
+    "images": {
+      "girl": {
+        "type": "image",
+        "source": { "kind": "url", "url": "https://raw.githubusercontent.com/receptron/mulmocast-media/refs/heads/main/characters/ghibli_presenter.png" }
+      }
+    }
+  },
+  "beats": [
+    {
+      "text": "少女はご飯を食べています",
+      "imagePrompt": "A watercolor-inspired scene of a young woman sitting at a low wooden table in a traditional Japanese room, enjoying rice, miso soup, and grilled fish; soft afternoon light filtering through shōji screens; pastel tones and delicate linework",
+      "moviePrompt": " "
+    },
+    {
+      "text": "少女はスケートを楽しんでいます",
+      "imagePrompt": "A cheerful young woman in a light pink winter coat and knitted scarf skating on an outdoor ice rink surrounded by snow-covered pines; visible breath in the crisp evening air; dynamic motion blur on her skates; hint of magical sparkle; twilight sky",
+      "moviePrompt": " "
+    }
+  ]
+}

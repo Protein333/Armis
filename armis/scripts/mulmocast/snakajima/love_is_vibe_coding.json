@@ -1,0 +1,177 @@
+{
+  "$mulmocast": {
+    "version": "1.1",
+    "credit": "closing"
+  },
+  "title": "恋はバイブコーディング",
+  "canvasSize": {
+    "width": 1024,
+    "height": 1536
+  },
+  "lang": "ja",
+  "audioParams": {
+    "bgmVolume": 0.0,
+    "suppressSpeech": true,
+    "introPadding": 0.0,
+    "closingPadding": 0.0,
+    "outroPadding": 0.0,
+    "padding": 0.0
+  },
+  "captionParams": {
+    "lang": "ja",
+    "styles": ["font-size: 64px", "width: 90%", "padding-left: 5%", "padding-right: 5%"]
+  },
+  "imageParams": {
+    "style": "<style>アニメ「君の名は」風</style>",
+    "images": {
+      "presenter": {
+        "type": "image",
+        "source": {
+          "kind": "url",
+          "url": "https://raw.githubusercontent.com/receptron/mulmocast-media/refs/heads/main/characters/jk_anime.png"
+        }
+      }
+    }
+  },
+  "beats": [
+    {
+      "text": "朝の霧が窓をぬらし",
+      "duration": 5.69,
+      "audio": {
+        "type": "audio",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/receptron/mulmocast-media/raw/refs/heads/main/bgms/vibe002.mp3"
+        }
+      },
+      "imagePrompt": "A foggy morning window with soft water droplets, viewed from inside a quiet room, pale blue light outside"
+    },
+    {
+      "text": "昨日の夢がまだ醒めない",
+      "duration": 5.69,
+      "imagePrompt": "A surreal dreamscape fading into a waking bedroom, soft blur between reality and imagination.",
+      "imageNames": []
+    },
+    {
+      "text": "ポットの音に耳をすませば",
+      "duration": 5.69,
+      "imagePrompt": "A kettle gently steaming on an old wooden stove in a cozy kitchen, early morning atmosphere"
+    },
+    {
+      "text": "君の気配が　遠くなる",
+      "duration": 5.69,
+      "imagePrompt": "A fading silhouette of a person walking away in the mist, viewed through a window"
+    },
+    {
+      "text": "空の色がやけにブルーで",
+      "duration": 5.69,
+      "imagePrompt": "A vivid, unnatural blue sky above a quiet urban neighborhood, no people visible"
+    },
+    {
+      "text": "時計の針は　迷子のまま",
+      "duration": 5.69,
+      "imagePrompt": "A vintage wall clock with warped hands spinning slowly, in an empty, dimly lit room"
+    },
+    {
+      "text": "交差点　信号が青でも",
+      "duration": 5.69,
+      "imagePrompt": "A still intersection under blue traffic lights, no cars or people, eerie quiet"
+    },
+    {
+      "text": "僕はなぜか　立ち止まる",
+      "duration": 5.69,
+      "imagePrompt": "A lone figure standing still in the middle of the crosswalk, long shadows from the evening sun",
+      "imageNames": []
+    },
+    {
+      "text": "恋はバイブコーディング",
+      "duration": 2.845,
+      "imagePrompt": "A surreal visual: glowing code fragments flowing like wind around two lovers, abstract city in background"
+    },
+    {
+      "text": "プログラムされてない",
+      "duration": 2.845,
+      "imagePrompt": "An open field with wildflowers growing randomly over a circuit board embedded in the ground"
+    },
+    {
+      "text": "決まりごとじゃ　届かない",
+      "duration": 5.69,
+      "imagePrompt": "A paper airplane flying off course over an abstract landscape made of broken patterns and rules"
+    },
+    {
+      "text": "手探りで君に触れた午後",
+      "duration": 5.69,
+      "imagePrompt": "Two hands reaching for each other through rippling light, golden hour in a park"
+    },
+    {
+      "text": "ハートだけが　動いてた",
+      "duration": 14.225,
+      "imagePrompt": "A glowing red heart hovering over an old analog radio, faint signal waves around it"
+    },
+    {
+      "text": "駅のホーム　誰かのため息",
+      "duration": 5.69,
+      "imagePrompt": "A nearly empty train platform at twilight, a person sitting alone with visible breath in the cold air"
+    },
+    {
+      "text": "風に乗って　過去になる",
+      "duration": 5.69,
+      "imagePrompt": "Old photographs flying into the wind over a field, fading into light as they fly away"
+    },
+    {
+      "text": "言い訳より　正解よりも",
+      "duration": 2.845,
+      "imagePrompt": "A chalkboard with half-erased equations, sunlight filtering through classroom windows"
+    },
+    {
+      "text": "沈黙が　うまく話す夜",
+      "duration": 7.11,
+      "imagePrompt": "A nighttime scene on a hill, a quiet pair sitting in silence, watching the city lights below"
+    },
+    {
+      "text": "紙の地図をたたんでしまい",
+      "duration": 2.845,
+      "imagePrompt": "An old paper map being folded slowly on a stone bench, autumn leaves around"
+    },
+    {
+      "text": "GPSも切ったままで",
+      "duration": 2.845,
+      "imagePrompt": "A smartphone with a blank screen lying on a table, next to a turned-off compass"
+    },
+    {
+      "text": "行き先も　理屈も捨てて",
+      "duration": 2.845,
+      "imagePrompt": "A person walking barefoot on a misty forest path, no signs, only nature",
+      "imageNames": []
+    },
+    {
+      "text": "ただ君の声　呼んでいた",
+      "duration": 4.267,
+      "imagePrompt": "A forest at dusk with a faint glowing echo of a voice in the wind, subtle sound waves in the air"
+    },
+    {
+      "text": "恋はバイブコーディング",
+      "duration": 2.845,
+      "imagePrompt": "A repeating visual of glowing lines of code turning into flower petals, drifting through the air"
+    },
+    {
+      "text": "揺らぐ感情のコード",
+      "duration": 2.845,
+      "imagePrompt": "Colorful neural network patterns pulsing gently like emotions, superimposed over a human silhouette"
+    },
+    {
+      "text": "解析不能な　微熱のようで",
+      "duration": 5.69,
+      "imagePrompt": "A thermometer fogged up in a hand, ambient soft light, sense of uncertain warmth"
+    },
+    {
+      "text": "夢のなかで君が笑う",
+      "duration": 5.69,
+      "imagePrompt": "A dreamy meadow under twilight with a ghostly figure fading into the light"
+    },
+    {
+      "text": "ログも取れずに　消えていく",
+      "imagePrompt": "Lines of text disappearing from a terminal screen into a cloud of particles, symbolic of fading memory"
+    }
+  ]
+}

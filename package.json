@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@shadcn/ui": "^0.0.4"
+  }
+}

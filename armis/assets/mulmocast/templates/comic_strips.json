@@ -1,0 +1,19 @@
+{
+  "title": "American Comic Strips",
+  "description": "Template for Dilbert-style comic strips.",
+  "systemPrompt": "Generate a script for a presentation of the given topic. Another AI will generate comic strips for each beat based on the text description of that beat. Mention the reference in one of beats, if it exists. Use the JSON below as a template.",
+  "presentationStyle": {
+    "$mulmocast": {
+      "version": "1.1",
+      "credit": "closing"
+    },
+    "canvasSize": {
+      "width": 1536,
+      "height": 1024
+    },
+    "imageParams": {
+      "style": "<style>A multi panel comic strips. 1990s American workplace humor. Clean, minimalist line art with muted colors. One character is a nerdy office worker with glasses</style>"
+    }
+  },
+  "scriptName": "text_only_template.json"
+}

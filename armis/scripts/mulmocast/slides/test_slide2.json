@@ -1,0 +1,228 @@
+{
+  "$mulmocast": {
+    "version": "1.0",
+    "credit": "closing"
+  },
+  "title": "Human Evolution",
+  "speechParams": {
+    "speakers": {
+      "Presenter": {
+        "voiceId": "shimmer",
+        "displayName": {
+          "en": "Presenter"
+        }
+      }
+    }
+  },
+  "beats": [
+    {
+      "speaker": "Presenter",
+      "text": "The evolution of humans is a complex journey that spans millions of years, shaped by biology, environment, and culture. Here's a high-level summary of the key stages in human evolution",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Human Evolution",
+          "bullets": [
+            "Early Primates",
+            "Hominids and Hominins",
+            "Australopithecus",
+            "Genus Homo Emerges",
+            "Homo erectus and Migration",
+            "Neanderthals and Other Archaic Humans",
+            "Homo sapiens"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Our story begins with tree-dwelling primates—small mammals with forward-facing eyes and grasping hands. These ancestors lived in forests and evolved traits useful for climbing and visual depth perception.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Early Primates",
+          "bullets": [
+            "~60–50 million years ago",
+            "tree-dwelling small mammals in forests",
+            "forward-facing eyes",
+            "traits useful for climbing and visual depth perception"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "The line that would eventually lead to humans diverged from other primates around 6-7 million years ago. These early hominids and hominins were the first to show adaptations for walking upright, a crucial development in our evolutionary journey.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Hominids and Hominins",
+          "bullets": [
+            "~7–6 million years ago",
+            "divergence from other great apes",
+            "first adaptations for bipedalism (walking upright)",
+            "Sahelanthropus, Orrorin, and Ardipithecus - early bipedal ancestors"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Australopithecus marks a significant chapter in our lineage. These species, including the famous 'Lucy', were fully bipedal but retained small brains. They thrived in diverse African environments for over 2 million years.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Australopithecus",
+          "bullets": [
+            "~4–2 million years ago",
+            "fully bipedal hominins",
+            "brain size similar to great apes",
+            "'Lucy' (Australopithecus afarensis) discovered in Ethiopia",
+            "diverse species adapted to various African environments"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Around 2.5 million years ago, our genus Homo first appears in the fossil record. Early Homo species showed increased brain size and the first evidence of stone tool use, marking the dawn of technology in human evolution.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Genus Homo Emerges",
+          "bullets": [
+            "~2.5–2 million years ago",
+            "Homo habilis - 'handy man'",
+            "increased brain size",
+            "Oldowan stone tools - first technology",
+            "dietary shift including more meat"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Homo erectus was the first hominin to expand beyond Africa, reaching as far as Southeast Asia. These humans had nearly modern body proportions, controlled fire, and created more sophisticated tools that remained largely unchanged for almost a million years.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Homo erectus and Migration",
+          "bullets": [
+            "~1.8 million–300,000 years ago",
+            "first to leave Africa",
+            "nearly modern body size and proportions",
+            "larger brains (~900cc)",
+            "control of fire (~1 million years ago)",
+            "Acheulean handaxes and advanced tools"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Several archaic human species evolved in different regions, with Neanderthals being the most well-known. These humans were highly adapted to cold environments, had larger brains than modern humans, and developed complex cultures with evidence of symbolic thought.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Neanderthals and Other Archaic Humans",
+          "bullets": [
+            "~400,000–40,000 years ago",
+            "Homo neanderthalensis in Europe and Western Asia",
+            "Denisovans in Asia",
+            "Homo floresiensis ('hobbits') in Indonesia",
+            "evidence of burials, art, and sophisticated tools",
+            "interbred with early Homo sapiens"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Our species, Homo sapiens, evolved in Africa around 300,000 years ago. What distinguishes us most is our capacity for complex language, abstract thought, and cumulative culture – the ability to build on previous innovations across generations.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Homo sapiens Emerges",
+          "bullets": [
+            "~300,000 years ago in Africa",
+            "modern anatomy with high, rounded skull",
+            "large brain (~1350cc) with expanded frontal lobes",
+            "capacity for complex language",
+            "earliest evidence at Jebel Irhoud, Morocco",
+            "coexisted with other human species for thousands of years"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Between 70,000-50,000 years ago, Homo sapiens underwent what some researchers call a 'cognitive revolution' – developing more sophisticated tools, art, and social structures. This period saw humans expanding out of Africa to populate the entire globe.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "The Great Migration",
+          "bullets": [
+            "~70,000–50,000 years ago",
+            "expansion out of Africa",
+            "development of Upper Paleolithic technologies",
+            "earliest cave art and figurines",
+            "adaptation to diverse environments worldwide",
+            "genetic admixture with Neanderthals and Denisovans"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "The agricultural revolution beginning around 12,000 years ago transformed human societies from nomadic hunter-gatherers to settled farmers. This change led to population growth, social stratification, and eventually the rise of cities and civilizations.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Agricultural Revolution",
+          "bullets": [
+            "~12,000–10,000 years ago",
+            "transition from foraging to farming",
+            "domestication of plants and animals",
+            "settled communities and population growth",
+            "storage of food surpluses",
+            "emergence of specialized roles and social hierarchy"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Our evolutionary journey continues today. While biological evolution now operates alongside cultural evolution, humans are still evolving in response to disease, diet, and other selective pressures. Understanding our past helps us make sense of who we are today.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Human Evolution Continues",
+          "bullets": [
+            "Recent adaptations to diet, disease, and altitude",
+            "Cultural evolution accelerating beyond biological change",
+            "Ongoing genetic diversification across populations",
+            "Modern technology creating new selective pressures",
+            "Understanding our evolutionary past informs our present and future"
+          ]
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "This brief overview only scratches the surface of the rich tapestry of human evolution. Each discovery adds new details to our understanding, while reminding us that evolution is not a linear march of progress but a complex branching tree of adaptations to changing environments.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Conclusion",
+          "bullets": [
+            "Human evolution is a complex branching process",
+            "Our history is continuously revised with new discoveries",
+            "We are one surviving branch of a diverse human family",
+            "Genetic, fossil, and archaeological evidence tell our story",
+            "Evolution continues to shape our species today"
+          ]
+        }
+      }
+    }
+  ]
+}

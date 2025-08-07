@@ -1,0 +1,59 @@
+{
+  "$mulmocast": {
+    "version": "1.1"
+  },
+  "lang": "en",
+  "title": "Beat Reference Test",
+  "beats": [
+    {
+      "text": "This is the first beat.",
+      "id": "first",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "This is the first beat."
+        }
+      }
+    },
+    {
+      "text": "This is the second beat.",
+      "id": "second",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "This is the second beat."
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "This beat uses the image from the previous beat.",
+      "image": {
+        "type": "beat"
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "This beat uses the image from the previous beat again.",
+      "image": {
+        "type": "beat"
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "This beat uses the image from the first beat.",
+      "image": {
+        "type": "beat",
+        "id": "first"
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "This beat uses the image from the second beat.",
+      "image": {
+        "type": "beat",
+        "id": "second"
+      }
+    }
+  ]
+}

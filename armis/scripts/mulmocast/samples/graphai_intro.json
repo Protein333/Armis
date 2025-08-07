@@ -1,0 +1,37 @@
+{
+  "$mulmocast": {
+    "version": "1.0",
+    "credit": "closing"
+  },
+  "title": "Introduction to GraphAI",
+  "description": "Declarative Dataflow Programming environment for AI agents.",
+  "speechParams": {
+    "speakers": {
+      "Host": {
+        "voiceId": "shimmer",
+        "displayName": {
+          "en": "Host"
+        }
+      }
+    }
+  },
+  "imagePath": "./scripts/samples/images/graphai_intro/\u200EGraphAI_pararel.\u200E",
+  "beats": [
+    {
+      "speaker": "Host",
+      "text": "This is a quick introduction of GraphAI, a Declarative Dataflow Programming environment for AI agents."
+    },
+    {
+      "speaker": "Host",
+      "text": "An AI agent is a software program that can interact with its environment, collect data, and use that data to perform tasks autonomously to achieve predetermined goals."
+    },
+    {
+      "speaker": "Host",
+      "text": "It utilizes various AI components and services, such as LLM and Text2Speech. It also interact with external data sources, tools and other agents via standard protocol like MCP."
+    },
+    {
+      "speaker": "Host",
+      "text": "All those services are accessible via asynchronous API, which makes it possible to concurrently execute those operations, but taking advantage of this concurrency is not easy."
+    }
+  ]
+}

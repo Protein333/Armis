@@ -1,0 +1,131 @@
+{
+  "$mulmocast": {
+    "version": "1.1",
+    "credit": "closing"
+  },
+  "title": "Peter Lynch Playbook: How to Spot a Ten-Bagger",
+  "lang": "en",
+  "references": [
+    {
+      "url": "https://www.amazon.com/One-Up-Wall-Street-Already/dp/0743200403",
+      "title": "One Up on Wall Street"
+    }
+  ],
+  "imageParams": {
+    "style": "<style>Ghibli style</style>",
+    "images": {
+      "presenter": {
+        "type": "image",
+        "source": {
+          "kind": "url",
+          "url": "https://raw.githubusercontent.com/receptron/mulmocast-media/refs/heads/main/characters/ghibli_presenter.png"
+        }
+      }
+    }
+  },
+  "beats": [
+    {
+      "speaker": "Presenter",
+      "text": "Invest in what you know — Lynch’s signature rule. Your shopping cart can be your stock screener.",
+      "imagePrompt": "A casual investor in a grocery aisle, lightbulb over their head, noticing a crowded shelf with a hot-selling product; soft warm lighting, realistic style."
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Start with everyday insights, then dig into the company’s filings. (See *One Up on Wall Street* for Lynch’s own mall-walking anecdotes.)",
+      "htmlPrompt": {
+        "prompt": "Slide titled 'Step 1: Invest in What You Know'. Flowchart: Everyday Observation → Stock Idea → Read 10-K → Decision."
+      }
+    },
+
+    {
+      "speaker": "Presenter",
+      "text": "Do your homework. A great product isn’t enough if the balance sheet is a mess.",
+      "imagePrompt": "Open notebook, magnifying glass over financial statements, background of ticker tape; realistic photo-illustration."
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Check earnings growth, debt levels, and the PEG ratio ≈ 1. If the numbers don’t sing, pass.",
+      "htmlPrompt": {
+        "prompt": "Clean table comparing two hypothetical companies: Revenue Growth, Debt/Equity, PEG; highlight the stronger candidate in green."
+      }
+    },
+
+    {
+      "speaker": "Presenter",
+      "text": "Classify your stocks — Lynch used six buckets to set expectations.",
+      "imagePrompt": "Six colored boxes orbiting a central stock certificate, each labeled: Slow Grower, Stalwart, Fast Grower, Cyclical, Turnaround, Asset Play."
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Knowing the category tells you what good performance looks like — a Stalwart doubling is a win, a Fast Grower only doubling may disappoint.",
+      "htmlPrompt": {
+        "prompt": "Radial diagram titled 'Lynch’s Six Stock Types' with brief one-line descriptions under each segment."
+      }
+    },
+
+    {
+      "speaker": "Presenter",
+      "text": "Hold for the long haul. Compounding works if you stay on the ride.",
+      "imagePrompt": "Roller-coaster graphic labeled 'Market', investor calmly seated with seatbelt, coaster ascends over years."
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Lynch’s Magellan Fund averaged 29% annually by letting winners run instead of selling at the first dip.",
+      "htmlPrompt": {
+        "prompt": "Line chart: Value of $10 000 invested in Magellan (1977-1990) versus S&P 500; Magellan curve highlighted."
+      }
+    },
+
+    {
+      "speaker": "Presenter",
+      "text": "Ignore the noise. Headlines change daily; company fundamentals move slowly.",
+      "imagePrompt": "Newspaper storm swirling around a calm investor wearing headphones, serene blue background."
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Tune out pundits and focus on quarterly reports — not Fed gossip.",
+      "htmlPrompt": {
+        "prompt": "Minimalist slide: left column 'Market Noise' (blurry headlines); right column 'Company Signals' (EPS, revenue, backlog) with checkmarks."
+      }
+    },
+
+    {
+      "speaker": "Presenter",
+      "text": "Hunt for ten-baggers — the stocks that can grow 10×.",
+      "imagePrompt": "Rocket-ship shaped like a dollar sign blasting off from a small cap launchpad toward a ten-bag banner."
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Ten-baggers often start as overlooked small companies with accelerating sales and a huge runway.",
+      "htmlPrompt": {
+        "prompt": "Bullet list titled 'Early Ten-Bagger Clues': TAM → accelerating EPS → low institutional ownership → insider buying."
+      }
+    },
+
+    {
+      "speaker": "Presenter",
+      "text": "Be ready to revise. Even great thesis age; revisit them with new data.",
+      "imagePrompt": "Investor erasing part of a whiteboard thesis and rewriting updated numbers; dynamic hand-drawn style."
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Sell when facts change — not when the price wiggles.",
+      "htmlPrompt": {
+        "prompt": "Decision tree: 'Is the original reason still true?' → Yes (Hold) / No (Re-evaluate or Sell)."
+      }
+    },
+
+    {
+      "speaker": "Presenter",
+      "text": "Key metrics Lynch loved: PEG≈1, low debt, insider ownership.",
+      "imagePrompt": "Close-up of a dashboard gauge cluster: PEG meter, Debt meter, Insider stake meter all in green zone."
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Mix these metrics with the earlier steps and you’ve got a Lynch-approved shortlist.",
+      "htmlPrompt": {
+        "prompt": "Checklist slide with tick boxes: PEG~1 ✔️, Debt/Equity < 0.5 ✔️, Insider stake > 5% ✔️, Steady EPS growth ✔️."
+      }
+    }
+  ]
+}

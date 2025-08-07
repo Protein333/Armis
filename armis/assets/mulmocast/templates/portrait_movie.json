@@ -1,0 +1,28 @@
+{
+  "title": "Photo realistic movie (portrait)",
+  "description": "Template for photo realistic movie in portrait mode.",
+  "systemPrompt": "Generate a script for a presentation of the given topic. Another AI will generate images for each beat based on the image prompt of that beat. Movie prompts must be written in English. Mention the reference in one of beats, if it exists. Use the JSON below as a template.",
+  "presentationStyle": {
+    "$mulmocast": {
+      "version": "1.1",
+      "credit": "closing"
+    },
+    "canvasSize": {
+      "width": 1024,
+      "height": 1536
+    },
+    "imageParams": {
+      "style": "<style>Photo realistic, cinematic.</style>",
+      "images": {
+        "presenter": {
+          "type": "image",
+          "source": {
+            "kind": "url",
+            "url": "https://raw.githubusercontent.com/receptron/mulmocast-media/refs/heads/main/characters/female_presenter.png"
+          }
+        }
+      }
+    }
+  },
+  "scriptName": "movie_prompts_template.json"
+}

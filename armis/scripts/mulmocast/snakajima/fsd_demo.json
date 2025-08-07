@@ -1,0 +1,84 @@
+{
+  "$mulmocast": {
+    "version": "1.1"
+  },
+  "lang": "en",
+  "title": "Tesla FSD Demonstration",
+  "captionParams": {
+    "lang": "en"
+  },
+  "canvasSize": {
+    "width": 1080,
+    "height": 1920
+  },
+  "beats": [
+    {
+      "text": "Welcome to a real-world demonstration of Tesla's Full Self-Driving capability. We begin in a challenging environment: a dimly lit, underground parking garage. The driver has just engaged FSD, and the car is now in complete control, from steering to speed.",
+      "image": {
+        "type": "movie",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/receptron/mulmocast-media/raw/refs/heads/main/movies/fsddemo001.mov"
+        }
+      }
+    },
+    {
+      "text": "Right away, FSD is navigating the tight confines of the garage. Using Tesla Vision, its network of cameras perceives the pillars, parked vehicles, and faint lane markings. Watch as it confidently executes a 90-degree left turn, staying perfectly centered in the narrow lane.",
+      "image": {
+        "type": "voice_over",
+        "startAt": 18.0
+      }
+    },
+    {
+      "text": "As it continues, the system smoothly navigates around corners and past other parked cars. It's not just following lines; it's building a 3D model of its surroundings in real-time to plot a safe and efficient path toward the exit.",
+      "image": {
+        "type": "voice_over",
+        "startAt": 39.0
+      }
+    },
+    {
+      "text": "Approaching the exit, the system identifies the parking gate, slows down, and patiently waits for it to open before proceeding. Now, watch this transition from dark to light. FSD handles an unprotected left turn onto a busy city street, carefully assessing oncoming traffic and waiting for a safe gap to merge.",
+      "image": {
+        "type": "voice_over",
+        "startAt": 56.0
+      }
+    },
+    {
+      "text": "Once on the road, it immediately adapts to the new environment. Notice the traffic cones narrowing the lane ahead. FSD identifies these temporary obstacles and adjusts its path, driving smoothly and confidently within the constricted space, all while maintaining a safe following distance from the vehicle in front.",
+      "image": {
+        "type": "voice_over",
+        "startAt": 78.0
+      }
+    },
+    {
+      "text": "Here, FSD reads the green traffic light and prepares for the upcoming left turn. The maneuver is decisive and smooth, seamlessly integrating into the flow of traffic on a new, more pedestrian-heavy street.",
+      "image": {
+        "type": "voice_over",
+        "startAt": 102.0
+      }
+    },
+    {
+      "text": "Driving in this urban environment, the system is aware of parked cars on both sides, potential cross-traffic, and the unpredictable nature of city driving. It confidently follows the vehicle ahead, even when its view is partially obstructed by a large trailer, demonstrating its ability to handle real-world complexities.",
+      "image": {
+        "type": "voice_over",
+        "startAt": 127.0
+      }
+    },
+    {
+      "text": "FSD shows sharp awareness at a four-way stop, spotting two cyclists and yielding until they pass. Human-like intuition, driven by AI.",
+      "image": {
+        "type": "voice_over",
+        "startAt": 168.0
+      }
+    },
+    {
+      "text": "From a complex garage to dynamic city streets, Tesla's Full Self-Driving is handling it all with confidence and a deep understanding of its environment. This is the future of driving.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "The Future of Driving"
+        }
+      }
+    }
+  ]
+}

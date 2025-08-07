@@ -1,0 +1,64 @@
+{
+  "$mulmocast": {
+    "version": "1.1",
+    "credit": "closing"
+  },
+  "title": "MASAI: A Modular Future for Software Engineering AI",
+  "description": "Exploring MASAI, a modular approach for AI agents in software engineering that revolutionizes how complex coding issues are tackled.",
+  "references": [
+    {
+      "url": "https://arxiv.org/abs/2406.11638",
+      "title": "MASAI: A Modular Future for Software Engineering AI",
+      "description": "An article on MASAI, a modular approach for AI agents in software engineering."
+    }
+  ],
+  "lang": "ja",
+  "imageParams": {
+    "style": "<style>monochrome"
+  },
+  "speechParams": {
+    "speakers": {
+      "Announcer": {
+        "provider": "nijivoice",
+        "displayName": {
+          "ja": "アナウンサー"
+        },
+        "voiceId": "3708ad43-cace-486c-a4ca-8fe41186e20c",
+        "speechOptions": {
+          "speed": 1.666
+        }
+      },
+      "Student": {
+        "provider": "nijivoice",
+        "displayName": {
+          "ja": "生徒"
+        },
+        "voiceId": "a7619e48-bf6a-4f9f-843f-40485651257f"
+      },
+      "Teacher": {
+        "provider": "nijivoice",
+        "displayName": {
+          "ja": "先生"
+        },
+        "voiceId": "bc06c63f-fef6-43b6-92f7-67f919bd5dae"
+      }
+    }
+  },
+  "beats": [
+    {
+      "speaker": "Announcer",
+      "text": "こんにちは。米国で活躍するエンジニアが新しい技術やビジネスを分かりやすく解説する、中島聡のLife is beautiful。"
+    },
+    {
+      "speaker": "Announcer",
+      "text": "今日は、アメリカで発表された「スターゲート・プロジェクト」に、ついて解説します。",
+      "imagePrompt": "Blue sky, a flock of birds",
+      "imageParams": {
+        "style": "<style>sumie-style"
+      },
+      "speechOptions": {
+        "speed": 0.8
+      }
+    }
+  ]
+}

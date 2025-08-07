@@ -1,0 +1,28 @@
+{
+  "title": "Akira style",
+  "description": "Template for Akira style comic presentation.",
+  "systemPrompt": "Generate a script for a presentation of the given topic. Another AI will generate images for each beat based on the image prompt of that beat. Mention the reference in one of beats, if it exists. Use the JSON below as a template.",
+  "presentationStyle": {
+    "$mulmocast": {
+      "version": "1.1",
+      "credit": "closing"
+    },
+    "canvasSize": {
+      "width": 1536,
+      "height": 1024
+    },
+    "imageParams": {
+      "style": "<style>AKIRA aesthetic.</style>",
+      "images": {
+        "girl": {
+          "type": "image",
+          "source": {
+            "kind": "url",
+            "url": "https://raw.githubusercontent.com/receptron/mulmocast-media/refs/heads/main/characters/akira_presenter.png"
+          }
+        }
+      }
+    }
+  },
+  "scriptName": "image_prompts_template.json"
+}

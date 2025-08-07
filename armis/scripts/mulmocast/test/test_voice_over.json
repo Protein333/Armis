@@ -1,0 +1,105 @@
+{
+  "$mulmocast": {
+    "version": "1.1"
+  },
+  "lang": "en",
+  "title": "Voice Over Test",
+  "captionParams": {
+    "lang": "en"
+  },
+  "beats": [
+    {
+      "text": "This is the first slide.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "First slide"
+        }
+      }
+    },
+    {
+      "text": "This code processes the audio.",
+      "image": {
+        "type": "movie",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/receptron/mulmocast-media/raw/refs/heads/main/movies/actions.mp4"
+        }
+      }
+    },
+    {
+      "image": {
+        "type": "voice_over"
+      }
+    },
+    {
+      "text": "This code processes the captions.",
+      "image": {
+        "type": "voice_over",
+        "startAt": 8.0
+      }
+    },
+    {
+      "image": {
+        "type": "voice_over"
+      }
+    },
+    {
+      "text": "This code processes the images.",
+      "image": {
+        "type": "voice_over",
+        "startAt": 14.5
+      }
+    },
+    {
+      "image": {
+        "type": "voice_over"
+      }
+    },
+    {
+      "text": "This code processes the movie.",
+      "image": {
+        "type": "voice_over",
+        "startAt": 21.0
+      }
+    },
+    {
+      "image": {
+        "type": "voice_over"
+      }
+    },
+    {
+      "text": "This code processes the pdf.",
+      "image": {
+        "type": "voice_over",
+        "startAt": 25.0
+      }
+    },
+    {
+      "image": {
+        "type": "voice_over"
+      }
+    },
+    {
+      "text": "This code processes the translation.",
+      "image": {
+        "type": "voice_over",
+        "startAt": 30.0
+      }
+    },
+    {
+      "image": {
+        "type": "voice_over"
+      }
+    },
+    {
+      "text": "This is the last slide.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Last slide"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Business presentation",
+  "description": "Template for business presentation.",
+  "systemPrompt": "Generate a script for a business presentation of the given topic. Use textSlides, markdown, mermaid, or chart to show slides. Extract image links in the article (from <img> tag) to reuse them in the presentation. Mention the reference in one of beats, if it exists. Use the JSON below as a template. chartData is the data for Chart.js",
+  "scriptName": "business.json"
+}

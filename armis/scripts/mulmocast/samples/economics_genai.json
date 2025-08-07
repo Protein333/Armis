@@ -1,0 +1,88 @@
+{
+  "$mulmocast": {
+    "version": "1.0",
+    "credit": "closing"
+  },
+  "title": "THE ECONOMICS OF GENERATIVE AI",
+  "description": "This episode examines generative AI economics through three layers: semiconductors (NVIDIA dominates with 90% of profits), infrastructure, and applications. Unlike traditional tech, value concentrates in semiconductors but will likely shift toward applications by decade's end, creating opportunities as the technology matures.",
+  "speechParams": {
+    "speakers": {
+      "Host": {
+        "voiceId": "shimmer",
+        "displayName": {
+          "en": "Host"
+        }
+      }
+    }
+  },
+  "references": [
+    {
+      "url": "https://apoorv03.com/p/the-economics-of-generative-ai",
+      "title": "The Economics of Generative AI",
+      "description": "A detailed analysis of the economics of generative AI by Apoorv Agrawal."
+    }
+  ],
+  "lang": "en",
+  "beats": [
+    {
+      "speaker": "Host",
+      "text": "Welcome to Mulmocast Tech Insights, where we break down the latest trends and developments in the technology world. I'm your host, and today we're diving into the fascinating economics of generative AI based on a recent analysis by Apoorv Agrawal published on his Substack, \"Apoorv's notes.\" This piece provides valuable insights into where value and profits are currently concentrated in the generative AI ecosystem, and where they might shift in the future."
+    },
+    {
+      "speaker": "Host",
+      "text": "When we look at the generative AI landscape today, it's divided into three distinct layers: semiconductors, infrastructure, and applications. What's particularly striking is how unevenly the profits are distributed across these layers."
+    },
+    {
+      "speaker": "Host",
+      "text": "According to Agrawal's analysis, the semiconductor layer, dominated by NVIDIA with over 95% market share, is capturing approximately 90% of all generative AI profits today. In the last reported quarter ending January 2024, NVIDIA earned around $18 billion in data center revenues, which annualizes to about $75 billion for this segment of the stack."
+    },
+    {
+      "speaker": "Host",
+      "text": "The semiconductor layer isn't just generating enormous revenue—it's also enjoying exceptional profit margins. NVIDIA is estimated to earn upwards of 85% gross margins on their generative AI datacenter products. When we translate this to actual profits, the semiconductor layer extracts about $64 billion out of the total $73 billion in gross profits across the entire generative AI ecosystem."
+    },
+    {
+      "speaker": "Host",
+      "text": "Moving up the stack, we find the infrastructure layer, which includes hyperscalers like AWS, Google Cloud, and Microsoft Azure, along with specialized inference clouds such as Coreweave and Lambda. Agrawal estimates this layer generates around $10 billion in annualized revenue with approximately 65% gross margins, excluding GPU depreciation. When depreciation is factored in, those margins drop significantly to 25-30%."
+    },
+    {
+      "speaker": "Host",
+      "text": "At the top of the stack is the applications layer, which encompasses large language models from companies like OpenAI, Anthropic, and xAI, as well as image models like Midjourney. This layer is currently estimated to generate just $5 billion in annualized revenue, with gross margins of 50-55%."
+    },
+    {
+      "speaker": "Host",
+      "text": "So why does this matter? The current distribution of value in the generative AI ecosystem is radically different from what we see in the traditional cloud computing stack, where the semiconductor layer captures only about 5% of gross profits."
+    },
+    {
+      "speaker": "Host",
+      "text": "However, if history is any guide, this concentration of value is likely to shift over time. Agrawal points to parallels with previous technological waves like mobile and cloud computing. In the mobile wave, value initially accrued in semiconductors, then shifted to the infrastructure layer with telecom companies, and finally moved to the application layer with software and services."
+    },
+    {
+      "speaker": "Host",
+      "text": "Similarly, cloud computing began with a massive data center buildout, followed by the rise of cloud service providers like AWS, which only started gaining significant customer traction around 2010-2012."
+    },
+    {
+      "speaker": "Host",
+      "text": "Agrawal suggests we're just in \"Inning #1\" of the generative AI revolution, which is dominated by semiconductors. He predicts that by the end of this decade, we'll reach \"Inning #3,\" where applications will capture a much larger share of the value."
+    },
+    {
+      "speaker": "Host",
+      "text": "This trajectory presents enormous opportunities, particularly in the application layer. As the technology matures and becomes more accessible, we'll likely see a proliferation of AI-powered applications that solve specific problems and create new user experiences."
+    },
+    {
+      "speaker": "Host",
+      "text": "For entrepreneurs and investors, the message is clear: while the current profits are concentrated in semiconductors, the future may well belong to those building innovative applications on top of these foundation models."
+    },
+    {
+      "speaker": "Host",
+      "text": "There are still crucial questions about this transition: Will NVIDIA maintain its dominant position? Will application developers create enough value to shift the distribution of profits? How will the economics evolve as competition increases across all layers?"
+    },
+    {
+      "speaker": "Host",
+      "text": "These questions will shape the generative AI landscape in the coming years, determining which companies and technologies ultimately capture the most value in this revolutionary ecosystem."
+    },
+    {
+      "speaker": "Host",
+      "text": "That's all for today's episode of Mulmocast Tech Insights. If you found this analysis valuable, check out Apoorv Agrawal's full article \"The Economics of Generative AI\" on his Substack, \"Apoorv's notes.\" Thanks for listening, and we'll see you next time with more cutting-edge insights from the world of technology."
+    }
+  ]
+}

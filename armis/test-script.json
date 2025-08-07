@@ -1,0 +1,35 @@
+{
+  "title": "Test Presentation",
+  "description": "A test presentation for mulmocast-cli",
+  "scenes": [
+    {
+      "id": "scene1",
+      "title": "Introduction",
+      "content": "Welcome to our test presentation",
+      "duration": 10,
+      "images": [],
+      "audio": null
+    },
+    {
+      "id": "scene2",
+      "title": "Main Content",
+      "content": "This is the main content of our presentation",
+      "duration": 20,
+      "images": [],
+      "audio": null
+    },
+    {
+      "id": "scene3",
+      "title": "Conclusion",
+      "content": "Thank you for watching our test presentation",
+      "duration": 10,
+      "images": [],
+      "audio": null
+    }
+  ],
+  "metadata": {
+    "language": "en",
+    "presentationStyle": "business",
+    "totalDuration": 40
+  }
+}

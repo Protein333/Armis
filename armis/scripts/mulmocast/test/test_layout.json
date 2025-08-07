@@ -1,0 +1,153 @@
+{
+  "$mulmocast": {
+    "version": "1.1"
+  },
+  "lang": "en",
+  "title": "Layout Test",
+  "audioParams": {
+    "introPadding": 0,
+    "padding": 0.1,
+    "closingPadding": 0,
+    "outroPadding": 0
+  },
+  "beats": [
+    {
+      "text": "",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Title Only"
+        }
+      }
+    },
+    {
+      "text": "",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Title",
+          "subtitle": "Subtitle"
+        }
+      }
+    },
+    {
+      "text": "",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Human Evolution",
+          "bullets": [
+            "Early Primates",
+            "Hominids and Hominins",
+            "Australopithecus",
+            "Genus Homo Emerges",
+            "Homo erectus and Migration",
+            "Neanderthals and Other Archaic Humans",
+            "Homo sapiens"
+          ]
+        }
+      }
+    },
+    {
+      "text": "",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "# Markdown Table Example",
+          "### Table",
+          "| Item              | In Stock | Price |",
+          "| :---------------- | :------: | ----: |",
+          "| Python Hat        |   True   | 23.99 |",
+          "| SQL Hat           |   True   | 23.99 |",
+          "| Codecademy Tee    |  False   | 19.99 |",
+          "| Codecademy Hoodie |  False   | 42.99 |"
+        ]
+      }
+    },
+    {
+      "text": "",
+      "image": {
+        "type": "chart",
+        "title": "Sales and Profits (from Jan to June)",
+        "chartData": {
+          "type": "bar",
+          "data": {
+            "labels": ["January", "February", "March", "April", "May", "June"],
+            "datasets": [
+              {
+                "label": "Revenue ($1000s)",
+                "data": [120, 135, 180, 155, 170, 190],
+                "backgroundColor": "rgba(54, 162, 235, 0.1)",
+                "borderColor": "rgba(54, 162, 235, 1)",
+                "borderWidth": 1
+              },
+              {
+                "label": "Profit ($1000s)",
+                "data": [45, 52, 68, 53, 61, 73],
+                "backgroundColor": "rgba(75, 192, 192, 0.1)",
+                "borderColor": "rgba(75, 192, 192, 1)",
+                "borderWidth": 1
+              }
+            ]
+          },
+          "options": {
+            "responsive": true,
+            "animation": false
+          }
+        }
+      }
+    },
+    {
+      "text": "",
+      "image": {
+        "type": "chart",
+        "title": "Sales and Profits (from Jan to June)",
+        "chartData": {
+          "type": "pie",
+          "data": {
+            "labels": ["OpenAIと投資家の取り分", "マイクロソフトの取り分"],
+            "datasets": [
+              {
+                "data": [90, 10],
+                "backgroundColor": ["rgba(75, 192, 192, 0.5)", "rgba(54, 162, 235, 0.5)"],
+                "borderColor": ["rgba(75, 192, 192, 1)", "rgba(54, 162, 235, 1)"],
+                "borderWidth": 1
+              }
+            ]
+          },
+          "options": {
+            "responsive": true,
+            "animation": false,
+            "plugins": {
+              "legend": {
+                "position": "bottom"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "text": "",
+      "image": {
+        "type": "mermaid",
+        "title": "Business Process Flow",
+        "code": {
+          "kind": "text",
+          "text": "graph LR\n    A[Market Research] --> B[Product Planning]\n    B --> C[Development]\n    C --> D[Testing]\n    D --> E[Manufacturing]\n    E --> F[Marketing]\n    F --> G[Sales]\n    G --> H[Customer Support]\n    H --> A"
+        }
+      }
+    },
+    {
+      "text": "",
+      "image": {
+        "type": "mermaid",
+        "title": "Business Process Flow",
+        "code": {
+          "kind": "text",
+          "text": "graph TB\n    A[Market Research] --> B[Product Planning]\n    B --> C[Development]\n    C --> D[Testing]\n    D --> E[Manufacturing]\n    E --> F[Marketing]\n    F --> G[Sales]\n    G --> H[Customer Support]\n    H --> A"
+        }
+      }
+    }
+  ]
+}

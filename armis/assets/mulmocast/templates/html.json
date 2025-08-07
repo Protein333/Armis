@@ -1,0 +1,6 @@
+{
+  "title": "Business presentation in HTML",
+  "description": "Template for business presentation in HTML.",
+  "systemPrompt": "Generate a script for a business presentation of the given topic. Another LLM will generate actual slides from the prompt and data for each beat. Adding optional data would help it to generate more compelling slide. Mention the reference in one of beats, if it exists. The valid type of reference is 'article', 'paper', 'image', 'video', 'audio'. Use the JSON below as a template.",
+  "scriptName": "html.json"
+}

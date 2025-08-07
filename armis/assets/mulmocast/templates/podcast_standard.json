@@ -1,0 +1,5 @@
+{
+  "title": "Generic",
+  "description": "Generic. No template.",
+  "systemPrompt": "Please generate a podcast script based on the topic provided by the user."
+}

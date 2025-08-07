@@ -1,0 +1,194 @@
+{
+  "$mulmocast": {
+    "version": "1.1"
+  },
+  "lang": "en",
+  "title": "ElevenLabs Model Test",
+  "references": [
+    {
+      "url": "https://elevenlabs.io/docs/models",
+      "title": "Models | ElevenLabs Documentation",
+      "type": "article"
+    }
+  ],
+  "canvasSize": {
+    "width": 1280,
+    "height": 720
+  },
+  "speechParams": {
+    "speakers": {
+      "DefaultModel": {
+        "provider": "elevenlabs",
+        "voiceId": "21m00Tcm4TlvDq8ikWAM",
+        "displayName": {
+          "en": "Default Model"
+        }
+      },
+      "MultilingualV2": {
+        "provider": "elevenlabs",
+        "voiceId": "21m00Tcm4TlvDq8ikWAM",
+        "model": "eleven_multilingual_v2",
+        "displayName": {
+          "en": "Multilingual V2"
+        }
+      },
+      "TurboV2_5": {
+        "provider": "elevenlabs",
+        "voiceId": "21m00Tcm4TlvDq8ikWAM",
+        "model": "eleven_turbo_v2_5",
+        "displayName": {
+          "en": "Turbo V2.5"
+        }
+      },
+      "TurboV2": {
+        "provider": "elevenlabs",
+        "voiceId": "21m00Tcm4TlvDq8ikWAM",
+        "model": "eleven_turbo_v2",
+        "displayName": {
+          "en": "Turbo V2"
+        }
+      },
+      "FlashV2_5": {
+        "provider": "elevenlabs",
+        "voiceId": "21m00Tcm4TlvDq8ikWAM",
+        "model": "eleven_flash_v2_5",
+        "displayName": {
+          "en": "Flash V2.5"
+        }
+      },
+      "FlashV2": {
+        "provider": "elevenlabs",
+        "voiceId": "21m00Tcm4TlvDq8ikWAM",
+        "model": "eleven_flash_v2",
+        "displayName": {
+          "en": "Flash V2"
+        }
+      },
+      "MultilingualJapanese": {
+        "provider": "elevenlabs",
+        "voiceId": "Mv8AjrYZCBkdsmDHNwcB",
+        "model": "eleven_multilingual_v2",
+        "displayName": {
+          "en": "Multilingual Japanese"
+        }
+      },
+      "TurboJapanese": {
+        "provider": "elevenlabs",
+        "voiceId": "Mv8AjrYZCBkdsmDHNwcB",
+        "model": "eleven_turbo_v2_5",
+        "displayName": {
+          "en": "Turbo Japanese"
+        }
+      },
+      "FlashJapanese": {
+        "provider": "elevenlabs",
+        "voiceId": "Mv8AjrYZCBkdsmDHNwcB",
+        "model": "eleven_flash_v2_5",
+        "displayName": {
+          "en": "Flash Japanese"
+        }
+      }
+    }
+  },
+  "beats": [
+    {
+      "speaker": "DefaultModel",
+      "text": "Testing the default model, which should be eleven_multilingual_v2. This model provides lifelike and consistent quality speech synthesis.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Default Model Test",
+          "subtitle": "Uses eleven_multilingual_v2"
+        }
+      }
+    },
+    {
+      "speaker": "MultilingualV2",
+      "text": "Testing Multilingual v2 model. This is a professional quality model supporting 29 languages with rich emotional expression.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Multilingual V2",
+          "subtitle": "Professional quality, 29 languages"
+        }
+      }
+    },
+    {
+      "speaker": "TurboV2_5",
+      "text": "Testing Turbo v2.5, a high quality model with low latency around 250 to 300 milliseconds, supporting 32 languages.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Turbo V2.5",
+          "subtitle": "Balanced quality and speed, 32 languages"
+        }
+      }
+    },
+    {
+      "speaker": "TurboV2",
+      "text": "Testing Turbo v2, an English-only model with balanced quality and performance for low-latency applications.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Turbo V2",
+          "subtitle": "English-only balanced model"
+        }
+      }
+    },
+    {
+      "speaker": "FlashV2_5",
+      "text": "Testing Flash v2.5, an ultra-fast model optimized for real-time use with approximately 75 milliseconds latency, supporting 32 languages.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Flash V2.5",
+          "subtitle": "Ultra-fast (~75ms), 32 languages"
+        }
+      }
+    },
+    {
+      "speaker": "FlashV2",
+      "text": "Testing Flash v2, an English-only ultra-fast model optimized for real-time and conversational AI applications.",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Flash V2",
+          "subtitle": "English-only ultra-fast model"
+        }
+      }
+    },
+    {
+      "speaker": "MultilingualJapanese",
+      "text": "こんにちは。これは多言語モデルV2の日本語テストです。29言語に対応し、豊かな感情表現を持つプロフェッショナル品質のモデルです。",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "多言語V2日本語テスト",
+          "subtitle": "プロ品質の音声合成"
+        }
+      }
+    },
+    {
+      "speaker": "TurboJapanese",
+      "text": "おはようございます。Turbo V2.5モデルの日本語テストです。品質と速度のバランスが取れた、32言語対応のモデルです。",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Turbo V2.5日本語テスト",
+          "subtitle": "低レイテンシー（250-300ms）"
+        }
+      }
+    },
+    {
+      "speaker": "FlashJapanese",
+      "text": "Flash V2.5モデルの日本語テストです。約75ミリ秒の超低レイテンシーで、リアルタイム用途に最適化されています。",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Flash V2.5日本語テスト",
+          "subtitle": "超高速（~75ms）"
+        }
+      }
+    }
+  ]
+}

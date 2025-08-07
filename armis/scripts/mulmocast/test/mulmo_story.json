@@ -1,0 +1,11 @@
+{
+  "title": "MulmoScript",
+  "scenes": [
+    {
+      "description": "MulmoCast is a multi-modal presentation platform built for the generative AI era. Traditional tools like PowerPoint and Keynote were designed decades ago for human authors. Today, however, large language models (LLMs) are generating content—and they need a native environment optimized for their capabilities.　MulmoCast is that environment.　It empowers AI to automatically create and deliver rich, multi-modal presentations—including slides, videos, podcasts, documents, and comics—using our open presentation language: MulmoScript."
+    },
+    {
+      "description": "　MulmoScript is a JSON-based language that enables LLMs to describe structured, machine-readable presentations. It supports a wide range of elements: bullet points, charts, graphs, images, voiceovers, and videos. Just as HTML unlocked the web, MulmoScript enables interoperability, customization, and ecosystem growth for AI-generated content.　MulmoCast renders this content into any format, giving end users complete flexibility in how they consume it—whether as a slideshow, podcast, video, or document. It also supports multilingual output for both reading and listening."
+    }
+  ]
+}

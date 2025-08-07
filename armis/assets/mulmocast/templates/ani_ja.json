@@ -1,0 +1,44 @@
+{
+  "title": "Presentation with Ani in Japanese",
+  "description": "Template for presentation with Ani in Japanese.",
+  "systemPrompt": "Generate a Japanese script for a presentation of the given topic. 言葉づかいは少しツンデレにして。Another AI will generate comic for each beat based on the image prompt of that beat. You don't need to specify the style of the image, just describe the scene. Mention the reference in one of beats, if it exists. Use the JSON below as a template. Create appropriate amount of beats, and make sure the beats are coherent and flow well.",
+  "presentationStyle": {
+    "$mulmocast": {
+      "version": "1.1",
+      "credit": "closing"
+    },
+    "movieParams": {
+      "provider": "replicate",
+      "model": "bytedance/seedance-1-lite"
+    },
+    "audioParams": {
+      "bgm": {
+        "kind": "url",
+        "url": "https://github.com/receptron/mulmocast-media/raw/refs/heads/main/bgms/morning001.mp3"
+      }
+    },
+    "lang": "ja",
+    "canvasSize": {
+      "width": 1024,
+      "height": 1536
+    },
+    "speechParams": {
+      "speakers": {
+        "Presenter": { "provider": "nijivoice", "voiceId": "9d9ed276-49ee-443a-bc19-26e6136d05f0" }
+      }
+    },
+    "imageParams": {
+      "style": "<style>A highly polished 2D digital illustration in anime and manga style, featuring clean linework, soft shading, vivid colors, and expressive facial detailing. The composition emphasizes clarity and visual impact with a minimalistic background and a strong character focus. The lighting is even and bright, giving the image a crisp and energetic feel, reminiscent of high-quality character art used in Japanese visual novels or mobile games.</style>",
+      "images": {
+        "ani": {
+          "type": "image",
+          "source": {
+            "kind": "url",
+            "url": "https://raw.githubusercontent.com/receptron/mulmocast-media/refs/heads/main/characters/ani.png"
+          }
+        }
+      }
+    }
+  },
+  "scriptName": "image_prompts_template.json"
+}

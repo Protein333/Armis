@@ -1,29 +1,40 @@
-import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
+import Script from "next/script"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Armis",
-  description: "AI-powered video editing platform",
+  title: "Armis - Any Editor",
   icons: {
-    icon: "/images/icon.png",
+    icon: '/icon.png',
+    shortcut: '/icon.png',
+    apple: '/icon.png',
   },
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode
-}>) {
+}) {
   return (
-    <html lang="ja" className="dark">
+    <html lang="ja" suppressHydrationWarning>
+      <head>
+        <Script
+          src="https://cdn.jsdelivr.net/npm/monaco-editor@0.52.2/min/vs/loader.js"
+          strategy="beforeInteractive"
+        />
+      </head>
       <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false} disableTransitionOnChange>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          enableSystem
+          disableTransitionOnChange
+        >
           {children}
         </ThemeProvider>
       </body>

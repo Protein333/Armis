@@ -15,12 +15,7 @@ class _EditorScreenState extends State<EditorScreen> {
   String? selectedAssetId;
   double currentTime = 0.0;
   bool isPlaying = false;
-  final List<Map<String, String>> chatHistory = [
-    {
-      'role': 'assistant',
-      'content': 'こんにちは！Armisへようこそ。何かお手伝いできることはありますか？',
-    },
-  ];
+  final List<Map<String, String>> chatHistory = [];
 
   void handleAssetSelect(String assetId) {
     setState(() {

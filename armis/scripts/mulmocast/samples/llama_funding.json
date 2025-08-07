@@ -1,0 +1,96 @@
+{
+  "$mulmocast": {
+    "version": "1.0",
+    "credit": "closing"
+  },
+  "title": "META'S LLAMA FUNDING STRUGGLES",
+  "description": "This episode explores Meta's efforts to create a funding consortium for its open-source Llama model, revealing the financial strain that even tech giants are facing due to rising AI development costs. Based on reporting from The Information, the podcast examines Meta's proposal, the challenges it faces, and the broader implications for AI economics.",
+  "speechParams": {
+    "speakers": {
+      "Host": {
+        "voiceId": "shimmer",
+        "displayName": {
+          "en": "Host"
+        }
+      }
+    }
+  },
+  "references": [
+    {
+      "url": "https://www.theinformation.com/articles/meta-asked-amazon-microsoft-help-fund-llama?rc=rvvbkr",
+      "title": "Meta Asked Amazon, Microsoft to Help Fund Llama",
+      "description": "An article on Meta's efforts to create a funding consortium for its open-source Llama model."
+    }
+  ],
+  "lang": "en",
+  "beats": [
+    {
+      "speaker": "Host",
+      "text": "Welcome to Mulmocast Tech Insights, your weekly deep dive into the technology transforming our world. Today we're exploring a fascinating development in the AI landscape. According to an article titled \"Meta Asked Amazon, Microsoft to Help Fund Llama\" published by The Information, Meta has been seeking financial partners to support its flagship AI model. This reveals the financial strain that even tech giants are facing as AI development costs continue to skyrocket."
+    },
+    {
+      "speaker": "Host",
+      "text": "The Information's article reports that Meta Platforms has been approaching major tech companies including Microsoft, Amazon, Databricks, IBM, and Oracle to help shoulder the massive costs of training its flagship AI model, Llama. Meta packaged this proposal as the \"Llama Consortium,\" offering potential partners some influence over feature development in exchange for financial support."
+    },
+    {
+      "speaker": "Host",
+      "text": "This is a remarkable development. Meta, with its massive resources, is essentially admitting that the cost of staying competitive in the AI race is becoming unsustainable for a single company — even one that generated $91 billion in operating cash flow last year and holds nearly $50 billion in cash reserves."
+    },
+    {
+      "speaker": "Host",
+      "text": "Meta's plan highlights something industry insiders have been whispering about for months: the economics of AI development might be reaching an inflection point where collaboration becomes necessary for survival."
+    },
+    {
+      "speaker": "Host",
+      "text": "But Meta's consortium pitch has faced significant headwinds. For one, potential partners were reportedly lukewarm on the idea of funding an open-source model that would ultimately be available for free. It's a difficult sell: \"Help us pay for this expensive project, and in return, you'll get... what everyone else gets anyway?\""
+    },
+    {
+      "speaker": "Host",
+      "text": "Then there's the competition factor. Microsoft has already committed over $13 billion to OpenAI. Amazon has invested $8 billion in Anthropic. Both companies are developing their own AI models. Why would they fund a potential competitor?"
+    },
+    {
+      "speaker": "Host",
+      "text": "Adding to Meta's challenges is the emergence of DeepSeek, another open-source model that's reportedly superior to Llama. This has apparently sent Meta scrambling to catch up, potentially making their consortium pitch even less attractive."
+    },
+    {
+      "speaker": "Host",
+      "text": "The fundamental issue here is that Meta lacks a clear monetization strategy for Llama. While cloud providers can sell AI-powered services and companies like Microsoft and Google can charge for consumer access to their AI chatbots, Meta's business is overwhelmingly dependent on advertising revenue."
+    },
+    {
+      "speaker": "Host",
+      "text": "Meta's funding struggles point to a broader question haunting the tech industry: are the massive investments in AI infrastructure economically sustainable?"
+    },
+    {
+      "speaker": "Host",
+      "text": "Meta plans to spend between $60 billion and $65 billion in capital expenditures this year alone — a 60% increase from 2024. That's about one-third of their projected annual revenue. And they're not alone. Microsoft, Google, and Amazon are making similar investments."
+    },
+    {
+      "speaker": "Host",
+      "text": "At the same time, there's growing uncertainty about consumer and business demand for AI services. Will companies and individuals spend enough on AI to justify these astronomical investments? And with President Trump's tariffs on imported chips threatening to raise development costs even further, the financial pressure is only increasing."
+    },
+    {
+      "speaker": "Host",
+      "text": "This reminds me of the famous Warren Buffett quote about the early airline industry: fantastic for consumers, terrible for investors. Could AI follow a similar path? Delivering tremendous value to users while failing to generate adequate returns for the companies pouring hundreds of billions into development?"
+    },
+    {
+      "speaker": "Host",
+      "text": "According to The Information, Meta appears to be exploring other funding avenues as well. There are reports of discussions with Middle Eastern investors and a potential $35 billion debt financing led by Apollo specifically for data centers."
+    },
+    {
+      "speaker": "Host",
+      "text": "This multi-pronged approach suggests Meta recognizes the need for creative financial solutions to sustain its AI ambitions without compromising shareholder expectations for buybacks and dividends."
+    },
+    {
+      "speaker": "Host",
+      "text": "It's worth noting that Meta faces unique challenges as an advertising-focused company trying to compete in AI. Unlike Microsoft with its cloud services or Google with its search business, Meta has limited experience selling business software. This makes their path to monetizing AI investments particularly uncertain."
+    },
+    {
+      "speaker": "Host",
+      "text": "As we continue to monitor this situation, one thing is clear: the economics of AI development are reaching a critical juncture. Even the wealthiest tech companies are feeling the strain, and we may see more collaborative funding models emerge as a result."
+    },
+    {
+      "speaker": "Host",
+      "text": "That's all for today's episode of Mulmocast Tech Insights. Thanks for listening, and we'll see you next week for another deep dive into the technology reshaping our world."
+    }
+  ]
+}

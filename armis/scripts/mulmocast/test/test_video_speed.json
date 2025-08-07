@@ -1,0 +1,81 @@
+{
+  "$mulmocast": {
+    "version": "1.1"
+  },
+  "lang": "en",
+  "title": "Video Speed",
+  "beats": [
+    {
+      "speaker": "Presenter",
+      "text": "This is a remote movie with audio.",
+      "image": {
+        "type": "movie",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/receptron/mulmocast-media/raw/refs/heads/main/test/pingpong.mov"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Text slide.",
+      "duration": 0.3,
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Text slide 1"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Speed is 2.0.",
+      "movieParams": {
+        "speed": 2.0
+      },
+      "image": {
+        "type": "movie",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/receptron/mulmocast-media/raw/refs/heads/main/test/pingpong.mov"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Text slide.",
+      "duration": 0.3,
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Text slide 2"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "This is a remote movie. Speed is 0.5.",
+      "movieParams": {
+        "speed": 0.5
+      },
+      "image": {
+        "type": "movie",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/receptron/mulmocast-media/raw/refs/heads/main/test/pingpong.mov"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "Text slide.",
+      "duration": 0.3,
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Text slide 3"
+        }
+      }
+    }
+  ]
+}
